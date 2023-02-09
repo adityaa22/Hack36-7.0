@@ -99,8 +99,13 @@
   }
 }
 
+html{
+  cursor: url('/magic-wand-cursor.png');
+}
+
 body {
   color: rgb(var(--foreground-rgb));
+  
   background: linear-gradient(
       to bottom,
       transparent,

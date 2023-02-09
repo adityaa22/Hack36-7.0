@@ -7,10 +7,12 @@ export default function Nav() {
       <div className="flex items-center p-1 mx-5 rounded-b-lg ">
         <Image src={HACKNAVLOGO} alt="hack36 logo" width={50} height={50} />
         <ul className="flex justify-between mx-auto space-x-5 font-bold uppercase">
-          <li>about</li>
-          <li>prizes</li>
-          <li>judges</li>
-          <li>themes</li>
+          <a href="#about"><li>About</li></a>
+          <a href="#prizes"><li>Prizes</li></a>
+          <a href="/sponsor"><li>Sponsor</li></a>
+          <a href="/team"><li>Team</li></a>
+          <a href="/faq"><li>FAQ</li></a>
+          <a href="#themes"><li>Themes</li></a>    
         </ul>
         <a
           id="mlh-trust-badge"

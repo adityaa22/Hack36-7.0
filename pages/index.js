@@ -14,7 +14,7 @@ export default function Home() {
       <Head>
         <title>Hack 36 6.0</title>
         <meta name="description" content="Hack36 6.0 MNNIT" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>  
         <link rel="icon" href="/milo.png" />
       </Head>
       <div

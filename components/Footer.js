@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="px-4 divide-y dark:bg-gray-800 dark:text-gray-100 bg-[url('/hack36boxes.jpeg')] bg-bottom bg-gray-600 bg-blend-multiply bg-contain">
+    <footer className="px-4 divide-y dark:bg-gray-800 dark:text-gray-100 bg-[url('/hack36boxes.jpeg')] bg-bottom bg-gray-600 bg-blend-multiply bg-norepeat">
       <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
         <div className="lg:w-1/3">
           <a
@@ -140,7 +140,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="py-6 text-sm text-center dark:text-gray-400">
-        © 1968 Company Co. All rights reserved.
+        © 2023  Hack36. All rights reserved.
       </div>
     </footer>
   );

@@ -1,7 +1,5 @@
 import Head from "next/head";
 import { Inter } from "@next/font/google";
-import Nav from "../components/Nav";
-import Footer from "../components/Footer";
 import About from "../components/About";
 import Landing from "../components/Landing";
 import Themes from "../components/Themes";
@@ -28,13 +26,11 @@ export default function Home() {
             "linear-gradient(179.53deg, #251A1B -75.69%, #1E3935 99.6%)",
         }}
       >
-        <Nav />
         <Landing />
         <About />
         <Themes />
         <Prizes />
         <Judges />
-        <Footer />
       </div>
     </>
   );

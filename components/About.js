@@ -1,4 +1,4 @@
-export default function Footer() {
+export default function About() {
   return (
     <div className="container mt-20">
       <div className="grid grid-cols-2 mx-5">

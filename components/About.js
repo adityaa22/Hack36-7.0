@@ -9,7 +9,7 @@ export default function Footer() {
           >
             About us
           </h1>
-          Another new year, and here we are, back with Hack36 5.0, one with even
+          Another new year, and here we are, back with Hack36 6.0, one with even
           more enthusiasm and anticipation! Although it will be held in a hybrid
           mode, the spirit of the traditional hackathon shall never be gone from
           this exciting event! Have you always had an idea which you wished to
@@ -36,7 +36,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex justify-around mx-5 mt-5 text-center">
+      {/* <div className="flex justify-around mx-5 mt-5 text-center">
         <h1>
           sponsors <br /> here
         </h1>
@@ -58,7 +58,7 @@ export default function Footer() {
         <h1>
           sponsors <br /> here
         </h1>
-      </div>
+      </div> */}
     </div>
   );
 }

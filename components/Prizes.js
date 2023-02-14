@@ -1,6 +1,6 @@
 export default function Prizes() {
   return (
-    <section className="mt-20 min-h-screen bg-[url('/prizes.jpg')] bg-fixed bg-cover mix-blend-lighten">
+    <section className="mt-20 min-h-screen bg-[url('/prizes.jpg')] bg-fixed bg-cover mix-blend-lighten" id="prizes">
       <h1 className="mt-4 font-bold text-center uppercase text-7xl">Prizes</h1>
 
       <div className="flex items-center justify-center mt-16">

@@ -15,7 +15,7 @@ export default function Landing() {
     };
   }, []);
   return (
-    <section>
+    <section id="Landing">
       <main className="container mt-4">
         <div className=" bg-[url('/landing.png')] max-h-[700px] h-screen bg-cover relative mx-5 rounded-lg shadow-lg bg-right-bottom">
           <div className="grid grid-cols-2">
@@ -34,7 +34,7 @@ export default function Landing() {
               <div className="flex items-center justify-center">
                 <div
                   className="apply-button"
-                  data-hackathon-slug="YOUR-HACKATHON-SLUG"
+                  data-hackathon-slug="hack36-v6"
                   data-button-theme="light"
                   //   style={{ height: "44px", width: "312px" }}
                 ></div>

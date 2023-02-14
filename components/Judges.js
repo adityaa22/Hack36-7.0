@@ -3,7 +3,7 @@ import Witch from "../public/witch.png";
 import Man from "../public/man.png";
 export default function Judges() {
   return (
-    <section className="">
+    <section className="judges">
       <div className="container bg-[url('/magicroom.jpg')]  bg-cover bg-bottom">
         <h1 className="font-bold text-center uppercase text-8xl">Judges</h1>
 

@@ -15,11 +15,11 @@ export default function Footer() {
             </div>
             <span className="self-center text-2xl font-semibold">Hack36</span>
           </a>
-          <div className="uppercase dark:text-gray-50">Social media</div>
+          <div className="uppercase dark:text-gray-50">Check Us Out On</div>
           <div className="flex justify-start space-x-3">
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="https://www.facebook.com/hack36mnnit"
               title="Facebook"
               className="flex items-center p-1"
             >
@@ -34,7 +34,7 @@ export default function Footer() {
             </a>
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="https://twitter.com/hack36mnnit"
               title="Twitter"
               className="flex items-center p-1"
             >
@@ -48,7 +48,7 @@ export default function Footer() {
             </a>
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="https://www.instagram.com/hack36_/"
               title="Instagram"
               className="flex items-center p-1"
             >
@@ -66,29 +66,29 @@ export default function Footer() {
         <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-3">
           <div className="space-y-3">
             <h3 className="tracking-wide uppercase dark:text-gray-50">
-              Product
+              Quick Links
             </h3>
             <ul className="space-y-1">
               <li>
-                <a rel="noopener noreferrer" href="#">
-                  Features
-                </a>
-              </li>
-              <li>
-                <a rel="noopener noreferrer" href="#">
-                  Integrations
-                </a>
-              </li>
-              <li>
-                <a rel="noopener noreferrer" href="#">
-                  Pricing
-                </a>
-              </li>
-              <li>
-                <a rel="noopener noreferrer" href="#">
+                <a rel="noopener noreferrer" href="/faq">
                   FAQ
                 </a>
               </li>
+              <li>
+                <a rel="noopener noreferrer" href="/sponsor">
+                  Sponsor
+                </a>
+              </li>
+              <li>
+                <a rel="noopener noreferrer" href="#">
+                  
+                </a>
+              </li>
+              {/* <li>
+                <a rel="noopener noreferrer" href="#">
+                  FAQ
+                </a>
+              </li> */}
             </ul>
           </div>
           <div className="space-y-3">

@@ -2,7 +2,7 @@ import Image from "next/image";
 import ThemeCard from "../public/theme-card.png";
 export default function Themes() {
   return (
-    <section className="mt-20">
+    <section className="mt-20" id="themes">
       <div className="container">
         <h1 className="font-bold text-center uppercase text-8xl ">themes</h1>
 

@@ -32,7 +32,9 @@ export default function sponsor() {
         )}
 
         <h1 className="text-3xl font-bold text-center">Past Sponsors</h1>
-        <div className="flex flex-wrap items-center justify-center p-4">
+        <div className="flex flex-wrap items-center justify-center p-4 m-6"
+        style={{ boxShadow: "inset 0 0 0 3000px rgba(255, 255, 255, 0.4)"}}
+        >
           <img src="/sponsor/past_sponsors-09.png" />
         </div>
       </div>

@@ -10,7 +10,7 @@ export const SponsorCard = ({ imageLink, name, url }) => {
         <div
           className="absolute inset-0"
           style={{
-            boxShadow: "inset 0 0 0 3000px rgba(215, 215, 215, 0.192)",
+            boxShadow: "inset 0 0 0 3000px rgba(255, 255, 255, 0.5)",
             backdropFilter: "blur(2px)",
           }}
         ></div>

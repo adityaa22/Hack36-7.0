@@ -29,7 +29,7 @@ export default {
     {
         name: 'Divyansh Upadhyay',
         imageUrl:
-          '/team/Lead_Abhishek.jpeg',
+          '',
         instagramUrl: 'https://www.instagram.com/_abhishek._.pathak_/',
         linkedinUrl: 'https://www.linkedin.com/in/abhishekpathak06/',
       },

@@ -93,17 +93,17 @@ export default function Footer() {
           </div>
           <div className="space-y-3">
             <h3 className="tracking-wide uppercase dark:text-gray-50">
-              Company
+              Important Links
             </h3>
             <ul className="space-y-1">
               <li>
-                <a rel="noopener noreferrer" href="#">
-                  Privacy
+                <a rel="noopener noreferrer" href="/Documents/MLHCodeOfConduct.pdf">
+                  MLH-Code of Conduct
                 </a>
               </li>
               <li>
-                <a rel="noopener noreferrer" href="#">
-                  Terms of Service
+                <a rel="noopener noreferrer" href="/Document/coc.pdf">
+                  Code of Conduct
                 </a>
               </li>
             </ul>

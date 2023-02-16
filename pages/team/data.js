@@ -89,7 +89,7 @@ export default {
     {
         name: 'Hardik Mittal',
         imageUrl:
-          '',
+          '/team/Hearty.jpg',
         instagramUrl: 'https://www.instagram.com/hearty_hardik/',
         linkedinUrl: 'https://www.linkedin.com/in/hardikmittal/',
       },

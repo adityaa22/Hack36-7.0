@@ -5,7 +5,9 @@ export default function Judges() {
   return (
     <section className="judges">
       <div className="container bg-[url('/magicroom.jpg')]  bg-cover bg-bottom">
-        <h1 className="font-bold text-center uppercase text-8xl">Judges</h1>
+        <h1 className="font-bold tracking-wider text-center uppercase text-8xl font-harry-font">
+          Judges
+        </h1>
 
         <div className="flex flex-wrap justify-around gap-3 py-20 ">
           <Image src={Witch} width={250} />

@@ -1,30 +1,27 @@
 import Image from "next/image";
+import Link from "next/link";
 import HACKNAVLOGO from "../public/Hack36-01.png";
 
 export default function Nav() {
   return (
-    <nav className="container">
+    <nav className="container ">
       <div className="flex items-center p-1 mx-5 rounded-b-lg ">
-        <Image src={HACKNAVLOGO} alt="hack36 logo" width={50} height={50} />
+        <Link href="/">
+          <Image src={HACKNAVLOGO} alt="hack36 logo" width={50} height={50} />
+        </Link>
         <ul className="flex justify-between mx-auto space-x-5 text-xs font-bold uppercase">
-          <a href="#about">
+          <Link href="#about">
             <li>About</li>
-          </a>
-          <a href="#prizes">
+          </Link>
+          <Link href="#prizes">
             <li>Prizes</li>
-          </a>
-          <a href="/sponsor">
+          </Link>
+          <Link href="/sponsor">
             <li>Sponsor</li>
-          </a>
-          <a href="/team">
+          </Link>
+          <Link href="/team">
             <li>Team</li>
-          </a>
-          <a href="/faq">
-            <li>FAQ</li>
-          </a>
-          <a href="#themes">
-            <li>Themes</li>
-          </a>
+          </Link>
         </ul>
         <a
           id="mlh-trust-badge"

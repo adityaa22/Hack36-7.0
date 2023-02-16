@@ -4,7 +4,9 @@ export default function Themes() {
   return (
     <section className="mt-20" id="themes">
       <div className="container">
-        <h1 className="font-bold text-center uppercase text-8xl ">themes</h1>
+        <h1 className="tracking-wider text-center uppercase  text-8xl font-harry-font">
+          themes
+        </h1>
 
         <div className="flex flex-wrap justify-around">
           <Image src={ThemeCard} width={400} />

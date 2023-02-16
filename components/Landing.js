@@ -28,7 +28,7 @@ export default function Landing() {
                 className="mx-auto"
               />
               <p className="italic">presents</p>
-              <h1 className="text-6xl font-bold uppercase">hack36 6.0</h1>
+              <h1 className="text-6xl uppercase font-harry-font">hack36 6.0</h1>
               <p className="italic">Caffeinate. Collaborate. Celebrate.</p>
               <p>March 24-26, 2023</p>
               <div className="flex items-center justify-center">

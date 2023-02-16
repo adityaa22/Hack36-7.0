@@ -5,7 +5,7 @@ export default function About() {
         <div className="text-justify">
           <h1
             data-shadow="ABOUT US"
-            className="mb-4 font-bold uppercase text-8xl"
+            className="mb-4 uppercase font-harry-font text-8xl"
           >
             About us
           </h1>

@@ -9,7 +9,12 @@ import Landing from "./Landing";
 
 export const ShowCase = () => {
   return (
-    <section className="md:py-16">
+    <section
+      className="md:py-16"
+      data-aos="fade-up"
+      data-aos-easing="ease-in-out"
+      data-aos-duration="800"
+    >
       <div className="p-4 space-y-1 text-center">
         <h1 className="text-sm font-medium uppercase font-harry-font">
           its not just about coding

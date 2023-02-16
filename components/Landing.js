@@ -15,7 +15,7 @@ export default function Landing() {
     };
   }, []);
   return (
-    <section id="Landing">
+    <section id="Landing" data-aos="fade-up">
       <main className="container pt-4">
         <div className=" bg-[url('/landing.png')] max-h-[700px] h-screen bg-cover relative mx-5 rounded-lg shadow-lg bg-right-bottom">
           <div className="grid grid-cols-2">
@@ -57,15 +57,6 @@ export default function Landing() {
                   Join Discord Server
                 </span>
               </a>
-            </div>
-
-            <div className="">
-              <Image
-                src={MILOWIZARD}
-                alt="milo in wizard dress"
-                width={400}
-                className="mx-auto "
-              />
             </div>
           </div>
         </div>

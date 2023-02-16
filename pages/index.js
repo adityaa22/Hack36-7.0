@@ -23,30 +23,30 @@ export default function Home() {
       </Head>
       <div
         className="box-border relative min-h-screen"
-        style={{
-          // background:"linear-gradient(179.53deg, #251A1B -75.69%, #1E3935 99.6%)",
-          // "background-image":
-          //   "url('/bookgb.jpeg')",
-          //   "background-repeat": "no-repeat",
-          //   "background-attachment": "fixed",
-          //   "background-size": "cover",
-            // "filter": "blur(4px)", 
-        }}
+        style={
+          {
+            // background:"linear-gradient(179.53deg, #251A1B -75.69%, #1E3935 99.6%)",
+            // "background-image":
+            //   "url('/bookgb.jpeg')",
+            //   "background-repeat": "no-repeat",
+            //   "background-attachment": "fixed",
+            //   "background-size": "cover",
+            // "filter": "blur(4px)",
+          }
+        }
       >
-        <div className="absolute inset-0 "
-        style={{
-          "background-image":
-            "url('/genbg.jpeg')",
+        <div
+          className="absolute inset-0 "
+          style={{
+            "background-image": "url('/genbg.jpeg')",
             "background-repeat": "no-repeat",
             "background-attachment": "fixed",
             "background-size": "cover",
-          "filter":"blur(4px)",
-          "filter":"brightness(0.4) blur(3px)",
-          "zIndex": "-10",
-        }} 
-        >
-
-        </div>
+            filter: "blur(4px)",
+            filter: "brightness(0.4) blur(3px)",
+            zIndex: "-10",
+          }}
+        ></div>
         <Landing />
         <About />
         {/* <Themes /> */}

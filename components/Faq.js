@@ -1,6 +1,10 @@
 export const Faq = () => {
   return (
-    <section>
+    <section
+      data-aos="fade-up"
+      data-aos-easing="ease-in-out"
+      data-aos-duration="800"
+    >
       <div className="container py-14">
         <div className="">
           <h1 className="text-4xl font-bold tracking-wider text-center uppercase font-harry-font md:text-5xl lg:text-6xl">
@@ -11,7 +15,12 @@ export const Faq = () => {
           </p>
         </div>
         <div className="py-4 space-y-4">
-          <details className="w-4/5 mx-auto">
+          <details
+            className="w-4/5 mx-auto"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="800"
+          >
             <summary
               itemprop="name"
               className="p-4 bg-gray-600 rounded-md cursor-pointer"
@@ -25,7 +34,12 @@ export const Faq = () => {
               </p>
             </div>
           </details>
-          <details className="w-4/5 mx-auto">
+          <details
+            className="w-4/5 mx-auto"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="800"
+          >
             <summary
               itemprop="name"
               className="p-4 bg-gray-600 rounded-md cursor-pointer"
@@ -39,7 +53,12 @@ export const Faq = () => {
               </p>
             </div>
           </details>
-          <details className="w-4/5 mx-auto">
+          <details
+            className="w-4/5 mx-auto"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="800"
+          >
             <summary
               itemprop="name"
               className="p-4 bg-gray-600 rounded-md cursor-pointer"
@@ -53,7 +72,12 @@ export const Faq = () => {
               </p>
             </div>
           </details>
-          <details className="w-4/5 mx-auto">
+          <details
+            className="w-4/5 mx-auto"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="800"
+          >
             <summary
               itemprop="name"
               className="p-4 bg-gray-600 rounded-md cursor-pointer"
@@ -67,7 +91,12 @@ export const Faq = () => {
               </p>
             </div>
           </details>
-          <details className="w-4/5 mx-auto">
+          <details
+            className="w-4/5 mx-auto"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="800"
+          >
             <summary
               itemprop="name"
               className="p-4 bg-gray-600 rounded-md cursor-pointer"
@@ -78,7 +107,12 @@ export const Faq = () => {
               <p>Definitely yes!</p>
             </div>
           </details>
-          <details className="w-4/5 mx-auto">
+          <details
+            className="w-4/5 mx-auto"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="800"
+          >
             <summary
               itemprop="name"
               className="p-4 bg-gray-600 rounded-md cursor-pointer"
@@ -92,7 +126,12 @@ export const Faq = () => {
               </p>
             </div>
           </details>
-          <details className="w-4/5 mx-auto">
+          <details
+            className="w-4/5 mx-auto"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="800"
+          >
             <summary
               itemprop="name"
               className="p-4 bg-gray-600 rounded-md cursor-pointer"
@@ -103,7 +142,12 @@ export const Faq = () => {
               <p>A team can consist of 2 to 4 members.</p>
             </div>
           </details>
-          <details className="w-4/5 mx-auto">
+          <details
+            className="w-4/5 mx-auto"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="800"
+          >
             <summary
               itemprop="name"
               className="p-4 bg-gray-600 rounded-md cursor-pointer"

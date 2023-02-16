@@ -1,11 +1,25 @@
+import Image from "next/image";
+import MiloOnHack from "../public/Milo-on-Hack36.png";
+import FlyingBook from "../public/Books-05.png";
 export default function About() {
   return (
     <div className="container mt-20 scroll-pt-4" id="about">
-      <div className="grid grid-cols-1 mx-5 md:grid-cols-2">
-        <div className="text-justify">
+      <h1
+        data-shadow="ABOUT US"
+        className="mb-4 text-5xl text-center uppercase md:hidden font-harry-font md:text-8xl"
+      >
+        About us
+      </h1>
+      <div className="grid grid-cols-1 gap-4 mx-5 md:grid-cols-5 md:mx-10">
+        <div
+          className="col-span-3 text-justify "
+          data-aos="fade-right"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="800"
+        >
           <h1
             data-shadow="ABOUT US"
-            className="mb-4 text-5xl text-center uppercase font-harry-font md:text-8xl"
+            className="hidden mb-4 text-5xl text-center uppercase md:block font-harry-font md:text-8xl"
           >
             About us
           </h1>
@@ -22,43 +36,24 @@ export default function About() {
           round the clock. So buckle up as you would not want to miss out on
           this unparalleled opportunity!
         </div>
-        <div className="relative">
-          <div className="bg-yellow-500 ">
-            <div className="relative w-4/5 h-full px-10 bg-white rounded-lg md:absolute right-4 -top-4 aspect-square"></div>
-            <iframe
-              src="https://www.youtube.com/embed/nOQyWbPO2Ds"
-              title="What's new in Tailwind CSS v3.1?"
-              frameborder="0"
-              className="relative z-10 w-full px-10 rounded-lg md:absolute aspect-video"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-          </div>
+        <div
+          className="relative flex items-center justify-center col-span-2 row-start-1 md:row-auto "
+          data-aos="fade-left"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="800"
+        >
+          <Image
+            src={FlyingBook}
+            className="absolute left-0 duration-[3000] ease-in-out animate-bounce top-1/2"
+            width={200}
+          />
+          <Image
+            src={MiloOnHack}
+            className="w-full h-full md:w-auto"
+            height={100}
+          />
         </div>
       </div>
-      {/* <div className="flex justify-around mx-5 mt-5 text-center">
-        <h1>
-          sponsors <br /> here
-        </h1>
-        <h1>
-          sponsors <br /> here
-        </h1>
-        <h1>
-          sponsors <br /> here
-        </h1>
-        <h1>
-          sponsors <br /> here
-        </h1>
-        <h1>
-          sponsors <br /> here
-        </h1>
-        <h1>
-          sponsors <br /> here
-        </h1>
-        <h1>
-          sponsors <br /> here
-        </h1>
-      </div> */}
     </div>
   );
 }

@@ -9,7 +9,11 @@ module.exports = {
     container: {
       center: true,
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        "harry-font": ["harry-font", "sans-serif"], // after you font, add some fonts separated by commas to handle fallback.
+      },
+    },
   },
   plugins: [],
 };

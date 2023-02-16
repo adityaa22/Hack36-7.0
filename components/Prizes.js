@@ -1,7 +1,12 @@
 export default function Prizes() {
   return (
-    <section className="mt-20 min-h-screen bg-[url('/prizes.jpg')] bg-fixed bg-cover mix-blend-lighten" id="prizes">
-      <h1 className="mt-4 font-bold text-center uppercase text-7xl">Prizes</h1>
+    <section
+      className="mt-20 min-h-screen bg-[url('/prizes.jpg')] bg-fixed bg-cover mix-blend-lighten"
+      id="prizes"
+    >
+      <h1 className="mt-4 font-bold tracking-wider text-center uppercase text-7xl font-harry-font">
+        Prizes
+      </h1>
 
       <div className="flex items-center justify-center mt-16">
         <div className="-mr-4 overflow-hidden transition-all duration-300 shadow-lg group card w-80 h-96 rounded-2xl hover:z-20 hover:scale-105">

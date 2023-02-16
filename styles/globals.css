@@ -3,32 +3,37 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Harry-Font';
-  src: url('/fonts/HarryP-MVZ6w.ttf');
+  font-family: "harry-font";
+  src: url("/fonts/HarryP-MVZ6w.ttf");
 }
 
 .gradient-text {
-  background: linear-gradient(to right,var(--purple),var(--violet),var(--pink),var(--purple));
+  background: linear-gradient(
+    to right,
+    var(--purple),
+    var(--violet),
+    var(--pink),
+    var(--purple)
+  );
   background-size: 200%;
   -webkit-background-clip: text;
-  -webkit-text-fill-color:transparent;
+  -webkit-text-fill-color: transparent;
   white-space: nowrap;
   animation: background-pan 3s linear infinite;
 }
 @keyframes background-pan {
-  from{
+  from {
     background-position: 0% center;
   }
-  to{
+  to {
     background-position: -200% center;
   }
 }
 
-
 :root {
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -47,10 +52,9 @@
     rgba(255, 255, 255, 0)
   );
 
-  --purple:rgb(123,31,162);
-  --violet:rgb(103,58,183);
-  --pink:rgb(244,143,177);
-
+  --purple: rgb(123, 31, 162);
+  --violet: rgb(103, 58, 183);
+  --pink: rgb(244, 143, 177);
 
   --tile-start-rgb: 239, 245, 249;
   --tile-end-rgb: 228, 232, 233;
@@ -103,13 +107,13 @@
   }
 }
 
-html{
-  cursor: url('/magic-wand-cursor.png');
+html {
+  cursor: url("/magic-wand-cursor.png");
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  
+
   background: linear-gradient(
       to bottom,
       transparent,
@@ -117,5 +121,3 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
-
-

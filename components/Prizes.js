@@ -9,7 +9,7 @@ export default function Prizes() {
         Prizes
       </h1>
 
-      <div className="flex flex-col items-center justify-center p-4 my-20 space-y-4 md:flex-col md:space-y-0 md:p-0">
+      <div className="flex flex-col items-center justify-center gap-4 p-4 my-20 md:flex-row md:gap-0 md:p-0">
         <div className="z-10 order-2 mt-4 overflow-hidden transition-all duration-300 shadow-lg md:order-none md:mt-0 md:-mr-4 group card w-80 h-96 rounded-2xl hover:z-30 hover:scale-105">
           <div className="relative h-40">
             <div

@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="container mt-20">
+    <div className="container mt-20 scroll-pt-4" id="about">
       <div className="grid grid-cols-1 mx-5 md:grid-cols-2">
         <div className="text-justify">
           <h1

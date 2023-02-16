@@ -30,8 +30,18 @@ export default {
             'name' : 'Solana',
             'url' : 'https://solana.com/',
         },
+        {
+            'imageLink' : '/sponsor/NewtonSchool.jpeg',
+            'name' : 'Newton School',
+            'url' : 'https://www.newtonschool.co/',
+        }
     ],
-    'benefactors' : [],
+    'benefactors' : [{
+        'imageLink' : '/sponsor/Cuvette.png',
+        'name' : 'Cuvette',
+        'url' : 'https://cuvette.tech/'
+    }
+    ],
     'past_sponsor' : [{
         'imageLink' : '/sponsor/past_sponsors-09.png',
         'name' : 'Past Sponsor'

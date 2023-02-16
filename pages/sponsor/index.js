@@ -35,7 +35,7 @@ export default function sponsor() {
         <div className="flex flex-wrap items-center justify-center p-4 m-6"
         style={{ boxShadow: "inset 0 0 0 3000px rgba(255, 255, 255, 0.4)"}}
         >
-          <img src="/sponsor/past_sponsors-09.png" />
+          <img className="p-5" src="/sponsor/past_sponsors-09.png" />
         </div>
       </div>
     </div>

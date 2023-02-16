@@ -6,7 +6,6 @@ import TeamSection from "../../components/team/TeamSection";
 export default function team() {
   return (
   <>
-    <Nav />
       <div className="py-32 bg-black">
         <div className="px-6 mx-auto text-center max-w-7xl lg:px-8">
           <div className="max-w-2xl p-3 mx-auto">

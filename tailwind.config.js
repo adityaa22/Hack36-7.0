@@ -13,6 +13,19 @@ module.exports = {
       fontFamily: {
         "harry-font": ["harry-font", "sans-serif"], // after you font, add some fonts separated by commas to handle fallback.
       },
+      animation: {
+        "horizontal-showcase": "horizontal-showcase linear infinite 25s",
+      },
+      keyframes: {
+        "horizontal-showcase": {
+          "0%": {
+            transform: "translateX(0)",
+          },
+          "100%": {
+            transform: "translateX(-980px)",
+          },
+        },
+      },
     },
   },
   plugins: [],

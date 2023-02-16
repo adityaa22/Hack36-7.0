@@ -16,7 +16,7 @@ export default function Landing() {
   }, []);
   return (
     <section id="Landing">
-      <main className="container mt-4">
+      <main className="container pt-4">
         <div className=" bg-[url('/landing.png')] max-h-[700px] h-screen bg-cover relative mx-5 rounded-lg shadow-lg bg-right-bottom">
           <div className="grid grid-cols-2">
             <div className="px-4 py-16 space-y-4 text-center outline-2">

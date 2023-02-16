@@ -24,16 +24,17 @@ export default function Home() {
       <div
         className="box-border min-h-screen"
         style={{
-          background:
-            "linear-gradient(179.53deg, #251A1B -75.69%, #1E3935 99.6%)",
+          // background:"linear-gradient(179.53deg, #251A1B -75.69%, #1E3935 99.6%)",
+          "background-image":
+            "linear-gradient(to top, #b224ef 0%, #7579ff 100%)",
         }}
       >
         <Landing />
         <About />
-        <Themes />
+        {/* <Themes /> */}
         <Prizes />
         <ShowCase />
-        <Judges />
+        {/* <Judges /> */}
         <Faq />
       </div>
     </>

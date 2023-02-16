@@ -1,11 +1,11 @@
 export default function About() {
   return (
     <div className="container mt-20">
-      <div className="grid grid-cols-2 mx-5">
+      <div className="grid grid-cols-1 mx-5 md:grid-cols-2">
         <div className="text-justify">
           <h1
             data-shadow="ABOUT US"
-            className="mb-4 uppercase font-harry-font text-8xl"
+            className="mb-4 text-5xl text-center uppercase font-harry-font md:text-8xl"
           >
             About us
           </h1>
@@ -24,12 +24,12 @@ export default function About() {
         </div>
         <div className="relative">
           <div className="bg-yellow-500 ">
-            <div className="absolute w-4/5 h-full px-10 bg-purple-500 rounded-lg right-4 -top-4 aspect-square"></div>
+            <div className="relative w-4/5 h-full px-10 bg-white rounded-lg md:absolute right-4 -top-4 aspect-square"></div>
             <iframe
               src="https://www.youtube.com/embed/nOQyWbPO2Ds"
               title="What's new in Tailwind CSS v3.1?"
               frameborder="0"
-              className="absolute z-10 w-full h-full px-10 rounded-lg aspect-video"
+              className="relative z-10 w-full px-10 rounded-lg md:absolute aspect-video"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>

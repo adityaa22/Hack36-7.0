@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import HACKNAVLOGO from "../public/Hack36-01.png";
 export default function Footer() {
   return (
@@ -7,7 +8,7 @@ export default function Footer() {
         <div className="space-y-5 lg:w-1/3">
           <a
             rel="noopener noreferrer"
-            href="#"
+            href="#Landing"
             className="flex justify-center space-x-3 lg:justify-start"
           >
             <div className="flex items-center justify-center w-12 h-12 ">
@@ -15,8 +16,10 @@ export default function Footer() {
             </div>
             <span className="self-center text-2xl font-semibold">Hack36</span>
           </a>
-          <div className="uppercase dark:text-gray-50">Check Us Out On</div>
-          <div className="flex justify-start space-x-3">
+          <div className="text-center uppercase dark:text-gray-50 lg:text-left">
+            Check Us Out On
+          </div>
+          <div className="flex justify-center space-x-5 lg:justify-start ">
             <a
               rel="noopener noreferrer"
               href="https://www.facebook.com/hack36mnnit"
@@ -63,26 +66,24 @@ export default function Footer() {
             </a>
           </div>
         </div>
-        <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-3">
+        <div className="grid grid-cols-2 mx-auto text-sm text-center gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-3">
           <div className="space-y-3">
             <h3 className="tracking-wide uppercase dark:text-gray-50">
               Quick Links
             </h3>
             <ul className="space-y-1">
               <li>
-                <a rel="noopener noreferrer" href="/faq">
+                <Link rel="noopener noreferrer" href="/faq">
                   FAQ
-                </a>
+                </Link>
               </li>
               <li>
-                <a rel="noopener noreferrer" href="/sponsor">
+                <Link rel="noopener noreferrer" href="/sponsor">
                   Sponsor
-                </a>
+                </Link>
               </li>
               <li>
-                <a rel="noopener noreferrer" href="#">
-                  
-                </a>
+                <Link rel="noopener noreferrer" href="#"></Link>
               </li>
               {/* <li>
                 <a rel="noopener noreferrer" href="#">
@@ -109,10 +110,10 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="space-y-3">
+          <div className="col-span-2 space-y-3 md:col-span-1">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4573.300262549805!2d81.86147038763943!3d25.492249795500978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399aca79275f57cd%3A0xf55eb06eb6538746!2sComputer%20Science%20and%20Engineering%20Department%2C%20MNNIT%20Allahabad!5e0!3m2!1sen!2sin!4v1675961512635!5m2!1sen!2sin"
-              className="w-4/5 border-0"
+              className="w-full border-0 md:w-4/5"
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"

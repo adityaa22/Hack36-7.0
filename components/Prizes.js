@@ -1,15 +1,16 @@
 export default function Prizes() {
   return (
     <section
-      className="mt-20 min-h-screen bg-[url('/prizes.jpg')] bg-fixed bg-cover mix-blend-lighten"
+      className="mt-20 min-h-screen bg-[url('/prizes.jpg')] bg-fixed bg-cover relative bg-center"
       id="prizes"
     >
-      <h1 className="mt-4 font-bold tracking-wider text-center uppercase text-7xl font-harry-font">
+      <div className="absolute inset-0 bg-gray-200 mix-blend-multiply"></div>
+      <h1 className="z-10 pt-4 font-bold tracking-wider text-center uppercase text-7xl">
         Prizes
       </h1>
 
-      <div className="flex items-center justify-center mt-16">
-        <div className="-mr-4 overflow-hidden transition-all duration-300 shadow-lg group card w-80 h-96 rounded-2xl hover:z-20 hover:scale-105">
+      <div className="flex flex-col items-center justify-center p-4 my-20 space-y-4 md:flex-col md:space-y-0 md:p-0">
+        <div className="z-10 order-2 mt-4 overflow-hidden transition-all duration-300 shadow-lg md:order-none md:mt-0 md:-mr-4 group card w-80 h-96 rounded-2xl hover:z-30 hover:scale-105">
           <div className="relative h-40">
             <div
               className="absolute inset-0"
@@ -32,7 +33,7 @@ export default function Prizes() {
             </p>
           </div>
         </div>
-        <div className="z-10 -mt-16 overflow-hidden transition-all duration-300 shadow-lg group card w-80 h-96 rounded-2xl hover:scale-105">
+        <div className="z-20 order-1 overflow-hidden transition-all duration-300 shadow-lg md:order-none md:-mt-16 group card w-80 h-96 rounded-2xl hover:scale-105">
           <div className="relative h-40">
             <div
               className="absolute inset-0"
@@ -55,7 +56,7 @@ export default function Prizes() {
             </p>
           </div>
         </div>
-        <div className="-ml-4 overflow-hidden transition-all duration-300 shadow-lg group card w-80 h-96 hover:z-20 rounded-2xl hover:scale-105">
+        <div className="z-10 order-3 overflow-hidden transition-all duration-300 shadow-lg md:order-none md:-ml-4 group card w-80 h-96 hover:z-30 rounded-2xl hover:scale-105">
           <div className="relative h-40">
             <div
               className="absolute inset-0"

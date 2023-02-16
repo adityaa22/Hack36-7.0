@@ -5,15 +5,15 @@ import HACKNAVLOGO from "../public/Hack36-01.png";
 export default function Nav() {
   return (
     <nav className="container ">
-      <div className="flex items-center p-1 mx-5 rounded-b-lg ">
+      <div className="flex items-center p-2 mx-5 rounded-b-lg">
         <Link href="/">
           <Image src={HACKNAVLOGO} alt="hack36 logo" width={50} height={50} />
         </Link>
-        <ul className="flex justify-between mx-auto space-x-5 text-xs font-bold uppercase">
-          <Link href="#about">
+        <ul className="flex justify-between w-2/5 mx-auto text-xs font-bold uppercase ">
+          <Link href="/#about">
             <li>About</li>
           </Link>
-          <Link href="#prizes">
+          <Link href="/#prizes">
             <li>Prizes</li>
           </Link>
           <Link href="/sponsor">

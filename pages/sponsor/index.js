@@ -4,9 +4,21 @@ import data from "./data";
 
 export default function sponsor() {
   return (
-    <div className="text-white-900 bg-gray">
+    <div className="relative text-white-900 bg-gray">
+      <div className="absolute inset-0 "
+        style={{
+          "background-image":
+            "url('/genbg.jpeg')",
+            "background-repeat": "no-repeat",
+            "background-attachment": "fixed",
+            "background-size": "cover",
+          "filter":"blur(4px)",
+          "filter":"brightness(0.5) blur(4px)",
+          "zIndex": "-10",
+        }} 
+        ></div>
       <div className="py-14">
-        <h1 className="text-4xl font-bold text-center uppercase md:text-5xl lg:text-6xl">
+        <h1 className="text-4xl font-bold text-center uppercase md:text-5xl lg:text-6xl font-harry-font">
           Sponsor
         </h1>
         <p className="mt-4 text-center capitalize">

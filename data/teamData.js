@@ -28,7 +28,7 @@ export default {
     },
     {
       name: "Lovedeep Singh Kamal",
-      imageUrl: "",
+      imageUrl: "/team/Cutie.jpeg",
       instagramUrl: "https://www.instagram.com/_abhishek._.pathak_/",
       linkedinUrl: "https://www.linkedin.com/in/abhishekpathak06/",
     },

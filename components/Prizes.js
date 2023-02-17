@@ -5,7 +5,7 @@ export default function Prizes() {
       id="prizes"
     >
       <div className="absolute inset-0 bg-gray-200 mix-blend-multiply"></div>
-      <h1 className="z-10 pt-4 font-bold tracking-wider text-center uppercase text-7xl">
+      <h1 className="z-10 pt-4 font-bold tracking-wider text-center uppercase text-7xl font-harry-font">
         Prizes
       </h1>
 
@@ -29,12 +29,10 @@ export default function Prizes() {
           {/* <Image src={Snitch} className="object-contain h-40" /> */}
           <div className="px-8 text-gray-800 content bg-[#ffebb3] group-hover:bg-[#ffd86b]  h-full ">
             <h1 className="py-4 text-2xl font-semibold capitalize">
-              Ace of Cups
+              Gold-Posesser of Elder Wand
             </h1>
             <p>
-              The cup represents the vessel of your subconscious mind; the five
-              streams are your five senses and the abundant emotion and
-              intuition flowing from within you.
+              Prizes Worth Rs100k+.
             </p>
           </div>
         </div>
@@ -57,12 +55,10 @@ export default function Prizes() {
           {/* <Image src={Snitch} className="object-contain h-40" /> */}
           <div className="px-8 text-gray-800 content bg-[#ffebb3] group-hover:bg-[#ffd86b] h-full">
             <h1 className="py-4 text-2xl font-semibold capitalize">
-              Ace of Cups
+              Silver - Owner of Resurrection Stone
             </h1>
             <p>
-              The cup represents the vessel of your subconscious mind; the five
-              streams are your five senses and the abundant emotion and
-              intuition flowing from within you.
+              Prizes Worth Rs.80k+
             </p>
           </div>
         </div>
@@ -86,12 +82,13 @@ export default function Prizes() {
           <div className=" bg-[#ffebb3] group-hover:bg-[#ffd86b]  h-full">
             <div className="px-8 text-gray-800">
               <h1 className="py-4 text-2xl font-semibold capitalize">
-                Ace of Cups
+                Bronze - Bearer of Cloak of Invisibility
               </h1>
               <p>
-                The cup represents the vessel of your subconscious mind; the
+                Prizes worth 50k+.
+                {/* The cup represents the vessel of your subconscious mind; the
                 five streams are your five senses and the abundant emotion and
-                intuition flowing from within you.
+                intuition flowing from within you. */}
               </p>
             </div>
           </div>

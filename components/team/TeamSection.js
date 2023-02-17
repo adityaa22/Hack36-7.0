@@ -12,10 +12,8 @@ export default function TeamSection({ section, data }) {
           role="list"
           className="grid max-w-2xl grid-cols-1 mx-auto mt-20 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
         >
-          {data.map((person) => (
-            <>
-              { person.imageUrl!='' && <Member person={person} />}
-            </>
+          {data.map((person, idx) => (
+            <>{person.imageUrl != "" && <Member person={person} key={idx} />}</>
           ))}
         </ul>
       </div>

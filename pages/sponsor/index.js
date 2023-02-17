@@ -1,22 +1,22 @@
 import { SponsorCard } from "../../components/sponsor/SponsorCard";
 import SponsorSection from "../../components/sponsor/SponsorSection";
-import data from "./data";
+import data from "../../data/sponsorData";
 
 export default function sponsor() {
   return (
     <div className="relative text-white-900 bg-gray">
-      <div className="absolute inset-0 "
+      <div
+        className="absolute inset-0 "
         style={{
-          "background-image":
-            "url('/genbg.jpeg')",
-            "background-repeat": "no-repeat",
-            "background-attachment": "fixed",
-            "background-size": "cover",
-          "filter":"blur(4px)",
-          "filter":"brightness(0.5) blur(4px)",
-          "zIndex": "-10",
-        }} 
-        ></div>
+          "background-image": "url('/genbg.jpeg')",
+          "background-repeat": "no-repeat",
+          "background-attachment": "fixed",
+          "background-size": "cover",
+          filter: "blur(4px)",
+          filter: "brightness(0.5) blur(4px)",
+          zIndex: "-10",
+        }}
+      ></div>
       <div className="py-14">
         <h1 className="text-4xl font-bold text-center uppercase md:text-5xl lg:text-6xl font-harry-font">
           Sponsor
@@ -44,8 +44,9 @@ export default function sponsor() {
         )}
 
         <h1 className="text-3xl font-bold text-center">Past Sponsors</h1>
-        <div className="flex flex-wrap items-center justify-center p-4 m-6"
-        style={{ boxShadow: "inset 0 0 0 3000px rgba(255, 255, 255, 0.4)"}}
+        <div
+          className="flex flex-wrap items-center justify-center p-4 m-6"
+          style={{ boxShadow: "inset 0 0 0 3000px rgba(255, 255, 255, 0.4)" }}
         >
           <img className="p-5" src="/sponsor/past_sponsors-09.png" />
         </div>

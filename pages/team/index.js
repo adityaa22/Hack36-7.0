@@ -1,22 +1,23 @@
 import Member from "../../components/team/Member";
-import data from "./data";
+import data from "../../data/teamData";
+
 import TeamSection from "../../components/team/TeamSection";
 
 export default function team() {
   return (
     <>
       <div className="relative py-32">
-      <div className="absolute inset-0 "
-        style={{
-          "background-image":
-            "url('/genbg.jpeg')",
+        <div
+          className="absolute inset-0 "
+          style={{
+            "background-image": "url('/genbg.jpeg')",
             "background-repeat": "no-repeat",
             "background-attachment": "fixed",
             "background-size": "cover",
-          "filter":"blur(4px)",
-          "filter":"brightness(0.5) blur(4px)",
-          "zIndex": "-10",
-        }} 
+            filter: "blur(4px)",
+            filter: "brightness(0.5) blur(4px)",
+            zIndex: "-10",
+          }}
         ></div>
         <div className="px-6 mx-auto text-center max-w-7xl lg:px-8">
           <div className="max-w-2xl p-3 mx-auto">

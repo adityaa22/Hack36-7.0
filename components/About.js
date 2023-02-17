@@ -3,7 +3,13 @@ import MiloOnHack from "../public/Milo-on-Hack36.png";
 import FlyingBook from "../public/Books-05.png";
 export default function About() {
   return (
-    <div className="container mt-20 scroll-pt-4" id="about">
+    <div
+      className="container mt-20 scroll-pt-4"
+      id="about"
+      data-aos="fade-up"
+      data-aos-easing="ease-in-out"
+      data-aos-duration="800"
+    >
       <h1
         data-shadow="ABOUT US"
         className="mb-4 text-5xl text-center uppercase md:hidden font-harry-font md:text-8xl"

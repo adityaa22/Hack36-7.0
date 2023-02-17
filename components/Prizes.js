@@ -5,7 +5,7 @@ export default function Prizes() {
       id="prizes"
     >
       <div className="absolute inset-0 bg-gray-200 mix-blend-multiply"></div>
-      <h1 className="z-10 pt-4 font-bold tracking-wider text-center uppercase text-7xl font-harry-font">
+      <h1 className="z-10 pt-4 font-bold tracking-wider text-center text-white uppercase text-7xl font-harry-font">
         Prizes
       </h1>
 

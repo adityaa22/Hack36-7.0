@@ -49,7 +49,7 @@ export default function About() {
         >
           <img
             src="/Milo-on-Hack36.png"
-            className="object-contain w-full md:aspect-video"
+            className="object-contain w-full h-full md:aspect-video max-h-70"
           />
         </div>
       </div>

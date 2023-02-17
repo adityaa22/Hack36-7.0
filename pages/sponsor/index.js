@@ -31,7 +31,7 @@ export default function sponsor() {
             href="mailto:hackathon@mnnit.ac.in"
             rel="noreferrer"
             target="_blank"
-            className="inline-block px-4 py-2 mx-auto mt-4 text-gray-900 bg-gray-200 rounded-md cursor-pointer capitatext-center"
+            className="inline-block px-4 py-2 mx-auto mt-4 text-gray-100 transition-all bg-gray-800 rounded-md cursor-pointer hover:bg-gray-900 capitatext-center"
           >
             Sponsor Us
           </a>

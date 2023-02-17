@@ -17,8 +17,8 @@ export default function Landing() {
   return (
     <section id="Landing" data-aos="fade-up">
       <main className="container pt-4">
-        <div className="  max-h-[700px] h-screen bg-contain relative mx-5 rounded-lg  ">
-          <div className="grid grid-cols-1 lg:grid-cols-2 bg-[url('/landing.png')] bg-cover bg-center bg-no-repeat">
+        <div className="  max-h-[700px] h-screen bg-cover relative mx-5 rounded-lg  bg-[url('/landing.png')] bg-center bg-no-repeat">
+          <div className="grid grid-cols-1 lg:grid-cols-2 ">
             <div className="px-4 py-16 space-y-4 text-center outline-2 ">
               <Image
                 src={CCLOGO}

@@ -1,4 +1,5 @@
-export default {
+let data;
+export default data={
   'eventLead':
   [
     {

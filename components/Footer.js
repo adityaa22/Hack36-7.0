@@ -98,13 +98,24 @@ export default function Footer() {
             </h3>
             <ul className="space-y-1">
               <li>
-                <a rel="noopener noreferrer" href="/Documents/MLHCodeOfConduct.pdf">
+                <a
+                  rel="noopener noreferrer"
+                  href="/Documents/MLHCodeOfConduct.pdf"
+                >
                   MLH-Code of Conduct
                 </a>
               </li>
               <li>
                 <a rel="noopener noreferrer" href="/Document/coc.pdf">
                   Code of Conduct
+                </a>
+              </li>
+              <li>
+                <a
+                  rel="noopener noreferrer"
+                  href="https://drive.google.com/file/d/17t8hYL_ALLmu8GIjNHHnUzgdu98PvPzA/view"
+                >
+                  Event Brochure
                 </a>
               </li>
             </ul>

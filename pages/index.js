@@ -35,33 +35,6 @@ export default function Home() {
           }
         }
       >
-        <div className="sticky top-0 z-50">
-          <a
-            id="mlh-trust-badge"
-            style={{
-              display: "inline-block",
-              maxWidth: "100px",
-              minWidth: "60px",
-              // position: "fixed",
-              // right: "50px",
-
-              width: "10%",
-              "z-index": "10000",
-            }}
-            href="https://mlh.io/apac?utm_source=apac-hackathon&utm_medium=TrustBadge&utm_campaign=2023-season&utm_content=black"
-            target="_blank"
-            rel="noreferrer"
-            className="absolute top-0 self-end md:fixed right-1 md:right-12"
-          >
-            {" "}
-            <img
-              src="https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-red.svg"
-              alt="Major League Hacking 2023 Hackathon Season"
-              style={{ width: "100%" }}
-            />
-          </a>
-        </div>
-
         <div
           className="absolute inset-0 "
           style={{

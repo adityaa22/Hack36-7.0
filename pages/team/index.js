@@ -13,7 +13,8 @@ export default function team() {
             "background-image": "url('/genbg.jpeg')",
             "background-repeat": "no-repeat",
             "background-attachment": "fixed",
-            "background-size": "cover",
+            "background-position": "start center",
+            // "background-size": "cover",
             filter: "blur(4px)",
             filter: "brightness(0.5) blur(4px)",
             zIndex: "-10",
@@ -21,7 +22,7 @@ export default function team() {
         ></div>
         <div className="px-6 mx-auto text-center max-w-7xl lg:px-8">
           <div className="max-w-2xl p-3 mx-auto">
-            <h2 className="text-3xl font-bold tracking-tight text-cream-900 sm:text-4xl font-harry-font">
+            <h2 className="text-3xl font-bold tracking-wider uppercase text-cream-900 sm:text-4xl font-harry-font">
               Meet our team
             </h2>
             <p className="mt-4 text-lg leading-8 text-white-600">

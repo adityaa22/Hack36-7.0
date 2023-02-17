@@ -27,11 +27,11 @@ export const Faq = () => {
               >
                 <summary
                   itemprop="name"
-                  className="p-4 bg-gray-600 rounded-md cursor-pointer"
+                  className="p-4 bg-gray-900 rounded-md cursor-pointer"
                 >
                   {faq.question}
                 </summary>
-                <div className="p-4 my-4 bg-gray-600 rounded-md">
+                <div className="p-4 my-4 text-gray-900 bg-gray-100 rounded-md">
                   <p>{faq.answer}</p>
                 </div>
               </details>

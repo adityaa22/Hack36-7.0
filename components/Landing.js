@@ -18,7 +18,7 @@ export default function Landing() {
     <section id="Landing" data-aos="fade-up">
       <main className="container pt-4">
         <div className=" bg-[url('/landing.png')] max-h-[700px] h-screen bg-cover relative mx-5 rounded-lg shadow-lg bg-right-bottom">
-          <div className="grid grid-cols-2">
+          <div className="grid grid-cols-1 lg:grid-cols-2">
             <div className="px-4 py-16 space-y-4 text-center outline-2">
               <Image
                 src={CCLOGO}
@@ -40,7 +40,7 @@ export default function Landing() {
                 ></div>
               </div>
               <a
-                className="inline-flex justify-center items-center rounded w-[312px] h-[44px] p-2 space-x-2 bg-[#5865F2]"
+                className="inline-flex justify-center items-center rounded w-full max-w-[312px] h-[44px] p-2 space-x-2 bg-[#5865F2]"
                 href="https://discord.gg/RgAQdbVX"
               >
                 <svg

@@ -32,7 +32,7 @@ export default function Prizes() {
               Gold-Posesser of Elder Wand
             </h1>
             <p>
-              Prizes Worth Rs100k+.
+              Prizes Worth Rs.100k+
             </p>
           </div>
         </div>
@@ -85,7 +85,7 @@ export default function Prizes() {
                 Bronze - Bearer of Cloak of Invisibility
               </h1>
               <p>
-                Prizes worth 50k+.
+                Prizes worth Rs.50k+
                 {/* The cup represents the vessel of your subconscious mind; the
                 five streams are your five senses and the abundant emotion and
                 intuition flowing from within you. */}

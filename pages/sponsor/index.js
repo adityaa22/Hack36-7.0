@@ -11,7 +11,8 @@ export default function sponsor() {
           "background-image": "url('/genbg.jpeg')",
           "background-repeat": "no-repeat",
           "background-attachment": "fixed",
-          "background-size": "cover",
+          // "background-size": "cover",
+          "background-position": "start center",
           filter: "blur(4px)",
           filter: "brightness(0.5) blur(4px)",
           zIndex: "-10",
@@ -19,11 +20,21 @@ export default function sponsor() {
       ></div>
       <div className="py-14">
         <h1 className="text-4xl font-bold text-center uppercase md:text-5xl lg:text-6xl font-harry-font">
-          Sponsor
+          Sponsors
         </h1>
         <p className="mt-4 text-center capitalize">
           Thank you to our sponsors for believing in us and making things
           happen.
+        </p>
+        <p className="text-center">
+          <a
+            href="mailto:hackathon@mnnit.ac.in"
+            rel="noreferrer"
+            target="_blank"
+            className="inline-block px-4 py-2 mx-auto mt-4 text-gray-100 transition-all bg-gray-800 rounded-md cursor-pointer hover:bg-gray-900 capitatext-center"
+          >
+            Sponsor Us
+          </a>
         </p>
       </div>
       <div className="space-y-10">

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import MiloOnHack from "../public/Milo-on-Hack36.png";
-import FlyingBook from "../public/Books-05.png";
 export default function About() {
   return (
     <div
@@ -19,7 +18,7 @@ export default function About() {
       <div className="grid grid-cols-1 gap-4 mx-5 md:grid-cols-5 md:mx-10">
         <div
           className="col-span-3 text-justify "
-          data-aos="fade-right"
+          data-aos="fade-up"
           data-aos-easing="ease-in-out"
           data-aos-duration="800"
         >
@@ -44,19 +43,13 @@ export default function About() {
         </div>
         <div
           className="relative flex items-center justify-center col-span-2 row-start-1 md:row-auto "
-          data-aos="fade-left"
+          data-aos="fade-up"
           data-aos-easing="ease-in-out"
           data-aos-duration="800"
         >
-          {/* <Image
-            src={FlyingBook}
-            className="absolute left-0 duration-[3000] ease-in-out animate-bounce top-1/2"
-            width={200}
-          /> */}
-          <Image
-            src={MiloOnHack}
-            className="w-full h-full md:w-auto"
-            height={100}
+          <img
+            src="/Milo-on-Hack36.png"
+            className="object-contain w-full h-full md:aspect-video max-h-70"
           />
         </div>
       </div>

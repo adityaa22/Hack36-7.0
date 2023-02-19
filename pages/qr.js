@@ -2,6 +2,12 @@
 // import { Main } from "next/document";
 // import { useEffect, useState } from "react";
 
+export default function qr(){
+  return (
+    <>
+    </>
+  )
+}
 
 
 // export default function qr() {

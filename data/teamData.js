@@ -23,14 +23,14 @@ export default {
     {
       name: "Divyansh Upadhyay",
       imageUrl: "",
-      instagramUrl: "https://www.instagram.com/_abhishek._.pathak_/",
-      linkedinUrl: "https://www.linkedin.com/in/abhishekpathak06/",
+      instagramUrl: "https://www.instagram.com/entangled.qubit/",
+      linkedinUrl: "https://www.linkedin.com/in/divyansh-upadhyay/",
     },
     {
       name: "Lovedeep Singh Kamal",
       imageUrl: "/team/Cutie.jpeg",
-      instagramUrl: "https://www.instagram.com/_abhishek._.pathak_/",
-      linkedinUrl: "https://www.linkedin.com/in/abhishekpathak06/",
+      instagramUrl: "https://www.instagram.com/lovedeep_codes/",
+      linkedinUrl: "https://www.linkedin.com/in/lovedeep-singh-kamal-173434182/",
     },
   ],
   outreachTeam: [

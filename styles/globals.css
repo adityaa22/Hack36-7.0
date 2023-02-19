@@ -108,7 +108,10 @@
 }
 
 html {
-  cursor: url("/magic-wand-cursor.png");
+  cursor: url("/magic-wand-cursor.png") 32 0,default;
+}
+a{
+  cursor: url("/magic-wand-cursor-st.png") 32 0,default;
 }
 
 body {

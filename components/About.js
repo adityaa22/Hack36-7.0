@@ -48,11 +48,11 @@ export default function About() {
           data-aos-easing="ease-in-out"
           data-aos-duration="800"
         >
-          <Image
+          {/* <Image
             src={FlyingBook}
             className="absolute left-0 duration-[3000] ease-in-out animate-bounce top-1/2"
             width={200}
-          />
+          /> */}
           <Image
             src={MiloOnHack}
             className="w-full h-full md:w-auto"

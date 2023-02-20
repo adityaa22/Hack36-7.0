@@ -1,7 +1,7 @@
 export default function Prizes() {
   return (
     <section
-      className="mt-20 min-h-screen bg-[url('/prizes.jpg')] bg-fixed bg-cover relative bg-center"
+      className="pt-20 pb-10 bg-[url('/prizes.jpg')] bg-fixed bg-cover relative bg-center scroll-mt-40"
       id="prizes"
     >
       <div className="absolute inset-0 bg-gray-200 mix-blend-multiply"></div>

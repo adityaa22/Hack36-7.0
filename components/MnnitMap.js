@@ -1,7 +1,7 @@
 export default function MnnitMap() {
   return (
     <section className="my-10 ">
-      <div className="container">
+      <div className="2xl:container ">
         <div className="mx-5 space-y-4">
           <h1 className="text-4xl text-center uppercase">
             Get in touch with us

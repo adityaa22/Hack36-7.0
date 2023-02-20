@@ -30,7 +30,8 @@ export default {
       name: "Lovedeep Singh Kamal",
       imageUrl: "/team/Cutie.jpeg",
       instagramUrl: "https://www.instagram.com/lovedeep_codes/",
-      linkedinUrl: "https://www.linkedin.com/in/lovedeep-singh-kamal-173434182/",
+      linkedinUrl:
+        "https://www.linkedin.com/in/lovedeep-singh-kamal-173434182/",
     },
   ],
   outreachTeam: [
@@ -48,9 +49,9 @@ export default {
     },
     {
       name: "Abhinav Anand",
-      imageUrl: "",
+      imageUrl: "/team/Abhinav.jpeg",
       instagramUrl: "",
-      linkedinUrl: "",
+      linkedinUrl: "https://www.linkedin.com/in/abhinav1001anand/",
     },
     {
       name: "Mohit Pandey",

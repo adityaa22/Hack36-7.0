@@ -30,6 +30,15 @@
   }
 }
 
+/* there is no sense of this class but adding it as a way to fix the color  */
+.init_defult_bg_color {
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
 :root {
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
     "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
@@ -108,10 +117,10 @@
 }
 
 html {
-  cursor: url("/magic-wand-cursor.png") 32 0,default;
+  cursor: url("/magic-wand-cursor.png") 32 0, default;
 }
-a{
-  cursor: url("/magic-wand-cursor-st.png") 32 0,default;
+a {
+  cursor: url("/magic-wand-cursor-st.png") 32 0, default;
 }
 
 body {

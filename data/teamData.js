@@ -14,7 +14,7 @@ export default {
     },
     {
       name: "Shradhey Pathak",
-      imageUrl: "",
+      imageUrl: "/team/Shradhey.jpg",
       instagramUrl: "https://www.instagram.com/_abhishek._.pathak_/",
       linkedinUrl: "https://www.linkedin.com/in/shradhey-pathak/",
     },
@@ -22,7 +22,7 @@ export default {
   webTeam: [
     {
       name: "Divyansh Upadhyay",
-      imageUrl: "",
+      imageUrl: "/team/DuP.jpg",
       instagramUrl: "https://www.instagram.com/entangled.qubit/",
       linkedinUrl: "https://www.linkedin.com/in/divyansh-upadhyay/",
     },

@@ -63,7 +63,7 @@ export default {
   contentTeam: [
     {
       name: "Karim",
-      imageUrl: "",
+      imageUrl: "/team/karim.jpeg",
       instagramUrl: "https://www.instagram.com/karimulla1098_",
       linkedinUrl: "https://www.linkedin.com/mwlite/in/karimulla1098",
     },

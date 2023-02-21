@@ -34,11 +34,12 @@ export default function team() {
           <div className="space-y-10">
             <TeamSection section="Event Leads" data={data.eventLead} />
             <TeamSection section="Web Team" data={data.webTeam} />
-            <TeamSection section="OutReach Team" data={data.outreachTeam} />
             <TeamSection
               section="Design and Video Team"
               data={data.designAndVideoTeam}
             />
+            <TeamSection section="OutReach Team" data={data.outreachTeam} />
+            <TeamSection section="Content Team" data={data.contentTeam} />
             <TeamSection section="Sponsor Team" data={data.sponsorTeam} />
           </div>
         </div>

@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import CCLOGO from "../public/CC-Logo-Horizontal-White-small.png";
-import MILOWIZARD from "../public/milo-wizard.png";
 
 export default function Landing() {
   React.useEffect(() => {
@@ -16,7 +15,7 @@ export default function Landing() {
   }, []);
   return (
     <section id="Landing" data-aos="fade-up">
-      <main className="2xl:container  pt-4">
+      <main className="pt-4 2xl:container">
         <div className="  max-h-[700px] h-screen bg-cover relative mx-5 rounded-lg  bg-[url('/landing.png')] bg-center bg-no-repeat">
           <div className="grid grid-cols-1 lg:grid-cols-2 ">
             <div className="px-4 py-16 space-y-4 text-center outline-2 ">

@@ -4,7 +4,7 @@ import HACKNAVLOGO from "../public/Hack36-01.png";
 export default function Footer() {
   return (
     <footer className="px-4 divide-y dark:bg-gray-800 dark:text-gray-100 bg-[url('/hack36boxes.jpeg')] bg-left-bottom bg-fixed bg-gray-600 bg-blend-multiply ">
-      <div className="2xl:container  flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
+      <div className="flex flex-col justify-between py-10 mx-auto space-y-8 2xl:container lg:flex-row lg:space-y-0">
         <div className="space-y-5 lg:w-1/3">
           <a
             rel="noopener noreferrer"
@@ -65,6 +65,14 @@ export default function Footer() {
               </svg>
             </a>
           </div>
+          <a
+            href="mailto:hackathon@mnnit.ac.in"
+            rel="noreferrer"
+            target="_blank"
+            className="inline-block px-4 py-2 mx-auto mt-4 text-gray-100 transition-all bg-gray-800 rounded-md cursor-pointer hover:bg-gray-900 capitatext-center"
+          >
+            Contact Us
+          </a>
         </div>
         <div className="grid grid-cols-2 mx-auto text-sm text-center gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-3">
           <div className="space-y-3">

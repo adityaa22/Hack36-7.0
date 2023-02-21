@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Witch from "../public/witch.png";
-import Man from "../public/man.png";
 export default function Judges() {
   return (
     <section className="judges">

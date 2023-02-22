@@ -3,7 +3,7 @@ import MiloOnHack from "../public/Milo-on-Hack36.png";
 export default function About() {
   return (
     <div
-      className="container mt-20 scroll-pt-4"
+      className="py-20 2xl:container scroll-mt-40"
       id="about"
       data-aos="fade-up"
       data-aos-easing="ease-in-out"

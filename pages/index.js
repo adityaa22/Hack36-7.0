@@ -42,11 +42,12 @@ export default function Home() {
             "background-repeat": "no-repeat",
             "background-attachment": "fixed",
             "background-position": "start center",
-            // "background-size": "cover",
-            filter: "blur(4px)",
-            filter: "brightness(0.4) blur(3px)",
             zIndex: "-10",
           }}
+        ></div>
+        <div
+          className="absolute inset-0"
+          style={{ zIndex: "-9", backdropFilter: "brightness(0.4) blur(3px)" }}
         ></div>
         <Landing />
         <About />

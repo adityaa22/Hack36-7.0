@@ -10,17 +10,15 @@ import Landing from "./Landing";
 export const ShowCase = () => {
   return (
     <section
-      className="md:py-16"
+      className="md:py-16 scroll-mt-40"
       data-aos="fade-up"
       data-aos-easing="ease-in-out"
       data-aos-duration="800"
     >
       <div className="p-4 space-y-1 text-center">
-        <h1 className="text-sm font-medium uppercase">
-          Join The community
-        </h1>
+        <h1 className="text-sm font-medium uppercase">Join The community</h1>
         <h1 className="text-3xl font-bold uppercase md:text-5xl font-harry-font">
-        its not just about coding
+          its not just about coding
         </h1>
       </div>
       <div className="flex gap-4 mt-10 overflow-hidden md:mt-20 flex-nowrap">

@@ -14,11 +14,12 @@ export default function team() {
             "background-repeat": "no-repeat",
             "background-attachment": "fixed",
             "background-position": "start center",
-            // "background-size": "cover",
-            filter: "blur(4px)",
-            filter: "brightness(0.5) blur(4px)",
             zIndex: "-10",
           }}
+        ></div>
+        <div
+          className="absolute inset-0"
+          style={{ zIndex: "-9", backdropFilter: "brightness(0.4) blur(3px)" }}
         ></div>
         <div className="px-6 mx-auto text-center max-w-7xl lg:px-8">
           <div className="max-w-2xl p-3 mx-auto">
@@ -30,14 +31,17 @@ export default function team() {
               we do.
             </p>
           </div>
-          <TeamSection section="Event Leads" data={data.eventLead} />
-          <TeamSection section="Web Team" data={data.webTeam} />
-          <TeamSection section="OutReach Team" data={data.outreachTeam} />
-          <TeamSection
-            section="Design and Video Team"
-            data={data.designAndVideoTeam}
-          />
-          <TeamSection section="Sponsor Team" data={data.sponsorTeam} />
+          <div className="space-y-10">
+            <TeamSection section="Event Leads" data={data.eventLead} />
+            <TeamSection section="Web Team" data={data.webTeam} />
+            <TeamSection
+              section="Design and Video Team"
+              data={data.designAndVideoTeam}
+            />
+            <TeamSection section="OutReach Team" data={data.outreachTeam} />
+            <TeamSection section="Content Team" data={data.contentTeam} />
+            <TeamSection section="Sponsor Team" data={data.sponsorTeam} />
+          </div>
         </div>
       </div>
     </>

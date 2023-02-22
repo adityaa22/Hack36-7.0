@@ -30,40 +30,41 @@ export default {
       name: "Lovedeep Singh Kamal",
       imageUrl: "/team/Cutie.jpeg",
       instagramUrl: "https://www.instagram.com/lovedeep_codes/",
-      linkedinUrl: "https://www.linkedin.com/in/lovedeep-singh-kamal-173434182/",
+      linkedinUrl:
+        "https://www.linkedin.com/in/lovedeep-singh-kamal-173434182/",
     },
   ],
   outreachTeam: [
     {
       name: "Shreya",
       imageUrl: "/team/Shreya_photo.jpg",
-      instagramUrl: "",
+      instagramUrl: "https://www.instagram.com/shreyeahh_20/",
       linkedinUrl: "https://www.linkedin.com/in/shreyayadav2023",
     },
     {
       name: "Ramya",
       imageUrl: "/team/Ramya.jpg",
-      instagramUrl: "",
+      instagramUrl: "https://www.instagram.com/pratyusha__ramya/",
       linkedinUrl: "https://www.linkedin.com/in/sp-ramya-pratyusha",
     },
     {
       name: "Abhinav Anand",
-      imageUrl: "",
-      instagramUrl: "",
-      linkedinUrl: "",
+      imageUrl: "/team/Abhinav.jpeg",
+      instagramUrl: "https://www.instagram.com/10_abhinav_01/",
+      linkedinUrl: "https://www.linkedin.com/in/abhinav1001anand/",
     },
     {
       name: "Mohit Pandey",
       imageUrl: "/team/Momo.jpg",
-      instagramUrl: "",
+      instagramUrl: "https://www.instagram.com/_mojo_ji_/",
       linkedinUrl: "https://www.linkedin.com/in/mohit-pandey-15045b18b/",
     },
   ],
   contentTeam: [
     {
       name: "Karim",
-      imageUrl: "",
-      instagramUrl: "",
+      imageUrl: "/team/karim.jpeg",
+      instagramUrl: "https://www.instagram.com/karimulla1098_",
       linkedinUrl: "https://www.linkedin.com/mwlite/in/karimulla1098",
     },
   ],
@@ -116,7 +117,7 @@ export default {
     {
       name: "Saurabh Kumar Kausal",
       imageUrl: "/team/Saurabh.jpg",
-      instagramUrl: "https://instagram.com/saurabh_kl?igshid=ZDdkNTZiNTM=",
+      instagramUrl: "https://instagram.com/saurabh_kl",
       linkedinUrl: "https://www.linkedin.com/in/saurabhkumarkaushal",
     },
     {

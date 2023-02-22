@@ -7,12 +7,12 @@ export default [
   {
     question: "Who Can Apply?",
     answer:
-      "Anyone having a knack of solving real life problems can apply for the hackathon.",
+      "Anyone(must be a college student) having a knack of solving real life problems can apply for the hackathon.",
   },
   {
     question: "What Is The Procedure Of Forming A Team?",
     answer:
-      "After registration, participants are required to form their team by logging in",
+      "Firstly make sure all teammates have registered on Devfolio. You can create your team from the devfolio dashboard",
   },
   {
     question: "What We Can Build?",
@@ -20,7 +20,7 @@ export default [
       "You can build anything you are passionate about like some web app, mobile app or something using hardware.",
   },
   {
-    question: "Will there still be goodies and swag?",
+    question: "Will there be goodies and swag?",
     answer: "Definitely yes!",
   },
   {

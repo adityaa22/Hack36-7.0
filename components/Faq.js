@@ -5,8 +5,10 @@ export const Faq = () => {
       data-aos="fade-up"
       data-aos-easing="ease-in-out"
       data-aos-duration="800"
+      className="scroll-mt-40"
+      id="faq"
     >
-      <div className="container py-14">
+      <div className="2xl:container py-14">
         <div className="">
           <h1 className="text-4xl font-bold tracking-wider text-center uppercase font-harry-font md:text-5xl lg:text-6xl">
             Faqs

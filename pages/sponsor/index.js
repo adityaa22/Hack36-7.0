@@ -11,12 +11,13 @@ export default function sponsor() {
           "background-image": "url('/genbg.jpeg')",
           "background-repeat": "no-repeat",
           "background-attachment": "fixed",
-          // "background-size": "cover",
           "background-position": "start center",
-          filter: "blur(4px)",
-          filter: "brightness(0.5) blur(4px)",
           zIndex: "-10",
         }}
+      ></div>
+      <div
+        className="absolute inset-0"
+        style={{ zIndex: "-9", backdropFilter: "brightness(0.4) blur(3px)" }}
       ></div>
       <div className="py-14">
         <h1 className="text-4xl font-bold text-center uppercase md:text-5xl lg:text-6xl font-harry-font">

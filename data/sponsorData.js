@@ -41,6 +41,11 @@ export default {
       name: "Cuvette",
       url: "https://cuvette.tech/",
     },
+    {
+      imageLink: "/sponsor/InterviewBuddy_Logo_Alpha.png",
+      name: "Interviewbit",
+      url: "https://interviewbuddy.in",
+    },
   ],
   past_sponsor: [
     {

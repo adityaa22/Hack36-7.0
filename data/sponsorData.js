@@ -43,7 +43,7 @@ export default {
     },
     {
       imageLink: "/sponsor/InterviewBuddy_Logo_Alpha.png",
-      name: "Interviewbit",
+      name: "Interviewbuddy",
       url: "https://interviewbuddy.in",
     },
   ],

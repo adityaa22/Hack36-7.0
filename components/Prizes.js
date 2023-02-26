@@ -34,7 +34,9 @@ export default function Prizes() {
             <p className="my-1 text-xs text-center text-gray-600 uppercase">
               Owner of Resurrection Stone
             </p>
+            <div className="flex justify-center">
             <p>Prizes Worth Rs.80k+</p>
+            </div>
           </div>
         </div>
         <div className="z-20 order-1 overflow-hidden transition-all duration-300 shadow-lg md:order-none md:-mt-16 group card w-80 h-96 rounded-2xl hover:scale-105">
@@ -56,7 +58,9 @@ export default function Prizes() {
             <p className="my-1 text-xs text-center text-gray-600 uppercase">
               Posesser of Elder Wand
             </p>
+            <div className="flex justify-center">
             <p>Prizes Worth Rs.100k+</p>
+            </div>
           </div>
         </div>
         <div className="z-10 order-3 overflow-hidden transition-all duration-300 shadow-lg md:order-none md:-ml-4 group card w-80 h-96 hover:z-30 rounded-2xl hover:scale-105">
@@ -79,8 +83,11 @@ export default function Prizes() {
               <p className="my-1 text-xs text-center text-gray-600 uppercase">
                 Bearer of Cloak of Invisibility
               </p>
+              <div className="flex justify-center">
+            <p>Prizes Worth Rs.50k+</p>
+            </div>
               <p>
-                Prizes worth Rs.50k+
+              
                 {/* The cup represents the vessel of your subconscious mind; the
                 five streams are your five senses and the abundant emotion and
                 intuition flowing from within you. */}

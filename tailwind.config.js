@@ -19,10 +19,10 @@ module.exports = {
       keyframes: {
         "horizontal-showcase": {
           "0%": {
-            transform: "translateX(0)",
+            transform: "translateX(0%)",
           },
           "100%": {
-            transform: "translateX(-980px)",
+            transform: "translateX(-100%)",
           },
         },
       },

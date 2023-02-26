@@ -22,6 +22,7 @@ export default function Footer() {
           <div className="flex items-center justify-center space-x-5 lg:justify-start ">
             <a
               rel="noopener noreferrer"
+              target="_blank"
               href="https://www.facebook.com/hack36mnnit"
               title="Facebook"
               className="flex items-center p-1"
@@ -37,6 +38,7 @@ export default function Footer() {
             </a>
             <a
               rel="noopener noreferrer"
+              target="_blank"
               href="https://twitter.com/hack36mnnit"
               title="Twitter"
               className="flex items-center p-1"
@@ -51,6 +53,7 @@ export default function Footer() {
             </a>
             <a
               rel="noopener noreferrer"
+              target="_blank"
               href="https://www.instagram.com/hack36_/"
               title="Instagram"
               className="flex items-center p-1"
@@ -65,16 +68,14 @@ export default function Footer() {
               </svg>
             </a>
             <a
-            href="mailto:hackathon@mnnit.ac.in"
-            rel="noreferrer"
-            target="_blank"
-            className="inline-block px-4 py-1 mx-auto mt-4 text-gray-100 transition-all bg-gray-800 rounded-md cursor-pointer hover:bg-gray-900 capitatext-center"
-          >
-            Contact Us
-          </a>
+              href="mailto:hackathon@mnnit.ac.in"
+              rel="noreferrer"
+              target="_blank"
+              className="inline-block px-4 py-1 mx-auto mt-4 text-gray-100 transition-all bg-gray-800 rounded-md cursor-pointer hover:bg-gray-900 capitatext-center"
+            >
+              Contact Us
+            </a>
           </div>
-          
-        
         </div>
         <div className="grid grid-cols-2 mx-auto text-sm text-center gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-3">
           <div className="space-y-3">
@@ -110,19 +111,25 @@ export default function Footer() {
               <li>
                 <a
                   rel="noopener noreferrer"
+                  target="_blank"
                   href="/Documents/MLHCodeOfConduct.pdf"
                 >
                   MLH-Code of Conduct
                 </a>
               </li>
               <li>
-                <a rel="noopener noreferrer" href="/Document/coc.pdf">
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="/Document/coc.pdf"
+                >
                   Code of Conduct
                 </a>
               </li>
               <li>
                 <a
                   rel="noopener noreferrer"
+                  target="_blank"
                   href="https://drive.google.com/file/d/17t8hYL_ALLmu8GIjNHHnUzgdu98PvPzA/view"
                 >
                   Event Brochure

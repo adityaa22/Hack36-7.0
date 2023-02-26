@@ -6,16 +6,6 @@ export default function sponsor() {
   return (
     <div className="relative text-white-900 bg-gray">
       <div
-        className="absolute inset-0 "
-        style={{
-          "background-image": "url('/genbg.jpeg')",
-          "background-repeat": "no-repeat",
-          "background-attachment": "fixed",
-          "background-position": "start center",
-          zIndex: "-10",
-        }}
-      ></div>
-      <div
         className="absolute inset-0"
         style={{ zIndex: "-9", backdropFilter: "brightness(0.4) blur(3px)" }}
       ></div>

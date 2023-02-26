@@ -94,6 +94,30 @@ export default {
       linkedinUrl: "https://www.linkedin.com/in/pranavi-sharma-5311a3200",
     },
   ],
+  prAndLogistics: [
+    {
+      name: "Aditya Gupta",
+      imageUrl: "/team/Hearty.jpg",
+      instagramUrl: "https://www.instagram.com/hearty_hardik/",
+      linkedinUrl: "https://www.linkedin.com/in/hardikmittal/",
+    }
+  ],
+  prAndLogistics: [
+    {
+      name: "Aditya Gupta",
+      imageUrl: "/team/Adi.jpg",
+      instagramUrl: "https://instagram.com/adi.kingdom545?igshid=YmMyMTA2M2Y=",
+      linkedinUrl: "",
+    }
+  ],
+  techTeam: [
+    {
+      name: "Abhishek Keshri",
+      imageUrl: "/team/Adi.jpg",
+      instagramUrl: "https://instagram.com/adi.kingdom545?igshid=YmMyMTA2M2Y=",
+      linkedinUrl: "",
+    }
+  ],
   sponsorTeam: [
     {
       name: "Anjali Dwivedi",

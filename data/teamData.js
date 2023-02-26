@@ -97,26 +97,18 @@ export default {
   prAndLogistics: [
     {
       name: "Aditya Gupta",
-      imageUrl: "/team/Hearty.jpg",
-      instagramUrl: "https://www.instagram.com/hearty_hardik/",
-      linkedinUrl: "https://www.linkedin.com/in/hardikmittal/",
-    }
-  ],
-  prAndLogistics: [
-    {
-      name: "Aditya Gupta",
-      imageUrl: "/team/Adi.jpg",
+      imageUrl: "/team/Adi.JPG",
       instagramUrl: "https://instagram.com/adi.kingdom545?igshid=YmMyMTA2M2Y=",
-      linkedinUrl: "",
-    }
+      linkedinUrl: "https://www.linkedin.com/in/aditya-gupta-916304199",
+    },
   ],
   techTeam: [
     {
       name: "Abhishek Keshri",
-      imageUrl: "/team/Adi.jpg",
-      instagramUrl: "https://instagram.com/adi.kingdom545?igshid=YmMyMTA2M2Y=",
-      linkedinUrl: "",
-    }
+      imageUrl: "",
+      instagramUrl: "https://instagram.com/abhikeshri10",
+      linkedinUrl: "https://www.linkedin.com/in/abhikeshri10",
+    },
   ],
   sponsorTeam: [
     {

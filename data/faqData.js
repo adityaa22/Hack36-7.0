@@ -12,7 +12,7 @@ export default [
   {
     question: "What Is The Procedure Of Forming A Team?",
     answer:
-      "Firstly make sure all teammates have registered on Devfolio and Google Form. You can create your team from the devfolio dashboard",
+      "Firstly make sure all teammates have registered on Devfolio. You can create your team from the devfolio dashboard and team leader must fill the google form.",
   },
   {
     question: "What We Can Build?",

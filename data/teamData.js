@@ -9,13 +9,14 @@ export default {
     {
       name: "Alok Kumar Singh",
       imageUrl: "/team/Alok.jpeg",
-      instagramUrl: "https://www.instagram.com/_abhishek._.pathak_/",
+      instagramUrl: "https://www.instagram.com/alok_ksingh_/",
       linkedinUrl: "https://www.linkedin.com/in/alok-kumar-singh07/",
     },
     {
       name: "Shradhey Pathak",
       imageUrl: "/team/Shradhey.jpg",
-      instagramUrl: "https://www.instagram.com/_abhishek._.pathak_/",
+      instagramUrl: "",
+      instagramUrl: "https://www.instagram.com/shradheypathak/",
       linkedinUrl: "https://www.linkedin.com/in/shradhey-pathak/",
     },
   ],

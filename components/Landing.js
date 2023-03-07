@@ -37,7 +37,7 @@ export default function Landing() {
                   //   style={{ height: "44px", width: "312px" }}
                 ></div>
               </div>
-              <a
+              {/* <a
                 className="flex mx-auto justify-center items-center rounded w-full max-w-[312px] h-[44px] p-2 space-x-2  text-white bg-[#818ae4]"
                 href="https://docs.google.com/forms/d/e/1FAIpQLSd7YButixlLhaFcpGNxatqFrLHdYNL9Cu4kvz4n_gwutXTiIg/viewform?fbzx=495081869553027872"
               >
@@ -46,7 +46,7 @@ export default function Landing() {
                   Fill Team Details
                   <span className="ml-1 text-xs text-red-600">(mandatory)</span>
                 </span>
-              </a>
+              </a> */}
               <a
                 className="flex mx-auto justify-center items-center rounded w-full max-w-[312px] h-[44px] p-2 space-x-2 bg-[#5865F2]"
                 href="https://discord.gg/RgAQdbVX"

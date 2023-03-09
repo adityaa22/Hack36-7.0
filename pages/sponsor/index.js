@@ -35,6 +35,9 @@ export default function sponsor() {
         {data.terra.length > 0 && (
           <SponsorSection sectionName="Terra Sponsor" data={data.title} />
         )}
+        {data.web3.length > 0 && (
+          <SponsorSection sectionName="Web3 Partner" data={data.web3} />
+        )}
         {data.giga.length > 0 && (
           <SponsorSection sectionName="Giga Sponsor" data={data.giga} />
         )}

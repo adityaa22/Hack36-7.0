@@ -1,6 +1,13 @@
 export default {
   title: [],
   terra: [],
+  web3: [
+    {
+      imageLink: "/sponsor/Zeeve.png",
+      name: "Zeeve Deeptech Private Limited",
+      url: "https://www.zeeve.io/",
+    },
+  ],
   giga: [
     {
       imageLink: "/sponsor/Devfolio.png",

@@ -56,7 +56,7 @@ export default {
     {
       imageLink: "/sponsor/RM.png",
       name: "Rosenfeld Media",
-      url: "https://rosenfeldmedia.com/logos/",
+      url: "https://rosenfeldmedia.com/",
     },
   ],
   past_sponsor: [

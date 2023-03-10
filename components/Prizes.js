@@ -36,6 +36,8 @@ export default function Prizes() {
             </p>
             <div className="flex justify-center">
             <p>Prizes Worth Rs.80k+</p>
+            <p>Cash Prize Rs. 20000</p>
+            <p>+Tons of swags and giveaways</p>
             </div>
           </div>
         </div>
@@ -60,6 +62,8 @@ export default function Prizes() {
             </p>
             <div className="flex justify-center">
             <p>Prizes Worth Rs.100k+</p>
+            <p>Cash Prize Worth Rs. 30000</p>
+            <p>+Tons of swags and giveaways</p>
             </div>
           </div>
         </div>
@@ -85,6 +89,8 @@ export default function Prizes() {
               </p>
               <div className="flex justify-center">
             <p>Prizes Worth Rs.50k+</p>
+            <p>Cash Prize Worth Rs. 10000</p>
+            <p>+Tons of swags and giveaways</p>
             </div>
               <p>
               

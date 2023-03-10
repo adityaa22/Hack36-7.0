@@ -34,9 +34,10 @@ export default function Prizes() {
             <p className="my-1 text-xs text-center text-gray-600 uppercase">
               Owner of Resurrection Stone
             </p>
-            <div className="flex justify-center">
+            <div className="flex-column justify-center font-serif">
             <p>Prizes Worth Rs.80k+</p>
-            <p>Cash Prize Rs. 20000</p>
+            <br></br>
+            <p>Cash Prize <b>Rs. 20000</b></p>
             <p>+Tons of swags and giveaways</p>
             </div>
           </div>
@@ -60,9 +61,10 @@ export default function Prizes() {
             <p className="my-1 text-xs text-center text-gray-600 uppercase">
               Posesser of Elder Wand
             </p>
-            <div className="flex justify-center">
+            <div className="flex-column justify-center font-serif">
             <p>Prizes Worth Rs.100k+</p>
-            <p>Cash Prize Worth Rs. 30000</p>
+            <br></br>
+            <p>Cash Prize Worth <b>Rs. 30000</b></p>
             <p>+Tons of swags and giveaways</p>
             </div>
           </div>
@@ -87,10 +89,11 @@ export default function Prizes() {
               <p className="my-1 text-xs text-center text-gray-600 uppercase">
                 Bearer of Cloak of Invisibility
               </p>
-              <div className="flex justify-center">
+              <div className="flex-column justify-center font-serif">
             <p>Prizes Worth Rs.50k+</p>
-            <p>Cash Prize Worth Rs. 10000</p>
-            <p>+Tons of swags and giveaways</p>
+            <br></br>
+            <p>Cash Prize Worth <b>Rs. 10000</b></p>
+            <p>Tons of swags and giveaways</p>
             </div>
               <p>
               

@@ -53,6 +53,11 @@ export default {
       name: "Interviewbuddy",
       url: "https://interviewbuddy.in",
     },
+    {
+      imageLink: "/sponsor/RM.png",
+      name: "Rosenfeld Media",
+      url: "https://rosenfeldmedia.com/logos/",
+    },
   ],
   past_sponsor: [
     {

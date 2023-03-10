@@ -49,7 +49,7 @@ export default function Landing() {
               </a> */}
               <a
                 className="flex mx-auto justify-center items-center rounded w-full max-w-[312px] h-[44px] p-2 space-x-2 bg-[#5865F2]"
-                href="https://discord.gg/RgAQdbVX"
+                href="https://discord.gg/mfjB5hmnEf"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

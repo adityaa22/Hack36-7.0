@@ -22,6 +22,7 @@ export default function team() {
             </p>
           </div>
           <div className="space-y-10">
+            <TeamSection section="Faculty Coordinators" data={data.faculty} />
             <TeamSection section="Event Leads" data={data.eventLead} />
             <TeamSection section="Web Team" data={data.webTeam} />
             <TeamSection

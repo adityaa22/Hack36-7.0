@@ -1,4 +1,18 @@
 export default {
+  faculty: [
+    {
+      name: "Dr. Dinesh Singh",
+      imageUrl: "/team/Dinesh_faculty.jpeg",
+    },
+    {
+      name: "Dr. Ashish Kumar Maurya",
+      imageUrl: "/team/Ashish_faculty.jpg",
+    },
+    {
+      name: "Dr. J Sathish Kumar",
+      imageUrl: "/team/Sathish_faculty.jpg",
+    },
+  ],
   eventLead: [
     {
       name: "Abhishek Kumar Pathak",
@@ -15,7 +29,6 @@ export default {
     {
       name: "Shradhey Pathak",
       imageUrl: "/team/Shradhey.jpg",
-      instagramUrl: "",
       instagramUrl: "https://www.instagram.com/shradheypathak/",
       linkedinUrl: "https://www.linkedin.com/in/shradhey-pathak/",
     },

@@ -42,6 +42,13 @@ export default {
       url: "https://www.newtonschool.co/",
     },
   ],
+  streamPlatfrom:[
+    {
+      imageLink: "/sponsor/slido.png",
+      name: "Slido",
+      url: "https://www.slido.com/",
+    },
+  ],
   benefactors: [
     {
       imageLink: "/sponsor/Cuvette.png",
@@ -57,6 +64,16 @@ export default {
       imageLink: "/sponsor/RM.png",
       name: "Rosenfeld Media",
       url: "https://rosenfeldmedia.com/",
+    },
+    {
+      imageLink: "/sponsor/axure.png",
+      name: "Axure",
+      url: "https://www.axure.com/",
+    },
+    {
+      imageLink: "/sponsor/verbwire.jpeg",
+      name: "Verbwire",
+      url: "https://www.verbwire.com/",
     },
   ],
   past_sponsor: [

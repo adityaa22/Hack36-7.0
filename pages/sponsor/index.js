@@ -44,6 +44,11 @@ export default function sponsor() {
         {data.mega.length > 0 && (
           <SponsorSection sectionName="Mega Sponsor" data={data.mega} />
         )}
+        {
+          data.streamPlatfrom.length > 0 && (
+            <SponsorSection sectionName="Streaming Partner" data={data.streamPlatfrom} />
+          )
+        }
         {data.benefactors.length > 0 && (
           <SponsorSection sectionName="Benefactors" data={data.benefactors} />
         )}

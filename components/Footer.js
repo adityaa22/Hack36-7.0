@@ -121,12 +121,12 @@ export default function Footer() {
                 <a
                   rel="noopener noreferrer"
                   target="_blank"
-                  href="/Document/coc.pdf"
+                  href="/Documents/coc.pdf"
                 >
                   Code of Conduct
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   rel="noopener noreferrer"
                   target="_blank"
@@ -134,7 +134,7 @@ export default function Footer() {
                 >
                   Event Brochure
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 

@@ -7,6 +7,7 @@ import Prizes from "../components/Prizes";
 import Judges from "../components/Judges";
 import { Faq } from "../components/Faq";
 import { ShowCase } from "../components/ShowCase";
+import TrackPrizes from "../components/trackPrizes";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
         <About />
         {/* <Themes /> */}
         <Prizes />
+        {/* <TrackPrizes /> */}
         <ShowCase />
         {/* <Judges /> */}
         <Faq />

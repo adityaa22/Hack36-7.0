@@ -2,12 +2,12 @@ import Head from "next/head";
 import { Inter } from "@next/font/google";
 import About from "../components/About";
 import Landing from "../components/Landing";
-import Themes from "../components/Themes";
 import Prizes from "../components/Prizes";
 import Judges from "../components/Judges";
 import { Faq } from "../components/Faq";
 import { ShowCase } from "../components/ShowCase";
 import TrackPrizes from "../components/trackPrizes";
+import Themes from "../components/theme";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {

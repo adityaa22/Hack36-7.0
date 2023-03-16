@@ -34,11 +34,13 @@ export default function Prizes() {
             <p className="my-1 text-xs text-center text-gray-600 uppercase">
               Owner of Resurrection Stone
             </p>
-            <div className="text-center font-serif">
-            <p>Prizes Worth Rs.80k+</p>
-            <br></br>
-            <p>Cash Prize <b>Rs. 20000</b></p>
-            <p>+Tons of swags and giveaways</p>
+            <div className="font-serif text-center">
+              <p>Prizes Worth Rs.80k+</p>
+              <br></br>
+              <p>
+                Cash Prize <b>Rs. 20000</b>
+              </p>
+              <p>+Tons of swags and giveaways</p>
             </div>
           </div>
         </div>
@@ -61,11 +63,13 @@ export default function Prizes() {
             <p className="my-1 text-xs text-center text-gray-600 uppercase">
               Posesser of Elder Wand
             </p>
-            <div className="text-center font-serif">
-            <p>Prizes Worth Rs.100k+</p>
-            <br></br>
-            <p>Cash Prize Worth <b>Rs. 30000</b></p>
-            <p>+Tons of swags and giveaways</p>
+            <div className="font-serif text-center">
+              <p>Prizes Worth Rs.100k+</p>
+              <br></br>
+              <p>
+                Cash Prize Worth <b>Rs. 30000</b>
+              </p>
+              <p>+Tons of swags and giveaways</p>
             </div>
           </div>
         </div>
@@ -89,14 +93,15 @@ export default function Prizes() {
               <p className="my-1 text-xs text-center text-gray-600 uppercase">
                 Bearer of Cloak of Invisibility
               </p>
-              <div className="text-center font-serif">
-            <p>Prizes Worth Rs.50k+</p>
-            <br></br>
-            <p>Cash Prize Worth <b>Rs. 10000</b></p>
-            <p>Tons of swags and giveaways</p>
-            </div>
+              <div className="font-serif text-center">
+                <p>Prizes Worth Rs.50k+</p>
+                <br></br>
+                <p>
+                  Cash Prize Worth <b>Rs. 10000</b>
+                </p>
+                <p>Tons of swags and giveaways</p>
+              </div>
               <p>
-              
                 {/* The cup represents the vessel of your subconscious mind; the
                 five streams are your five senses and the abundant emotion and
                 intuition flowing from within you. */}

@@ -133,3 +133,10 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.rotateY180 {
+  transform: rotateY(180deg);
+}
+.theme-card:hover .theme-card-inner {
+  transform: rotateY(180deg);
+}

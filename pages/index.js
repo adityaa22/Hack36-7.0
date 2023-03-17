@@ -25,7 +25,7 @@ export default function Home() {
       <div className="box-border relative w-full">
         <Landing />
         <About />
-        {/* <Themes /> */}
+        <Themes />
         <Prizes />
         {/* <TrackPrizes /> */}
         <ShowCase />

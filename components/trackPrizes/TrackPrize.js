@@ -24,11 +24,14 @@ const TrackPrize = ({ imgSrc, imgAlt, mainText, bottomText }) => {
           />
         </div>
         {/*  */}
-        <p className="left-0 right-0 w-full p-2  capitalize text-xl text-center text-white  bg-[#981ea1]">
-          {mainText}
+        <p
+          className="left-0 right-0 w-full p-2 
+         capitalize text-xl text-center text-white  bg-[#981ea1]"
+        >
+          {mainText ?? ""}
         </p>
         <p className="mt-auto text-xs text-white uppercase bottom-5">
-          {bottomText}
+          {bottomText ?? ""}
         </p>
       </div>
     </div>

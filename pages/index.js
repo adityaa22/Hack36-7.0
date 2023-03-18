@@ -27,7 +27,7 @@ export default function Home() {
         <About />
         <Themes />
         <Prizes />
-        {/* <TrackPrizes /> */}
+        <TrackPrizes />
         <ShowCase />
         {/* <Judges /> */}
         <Faq />

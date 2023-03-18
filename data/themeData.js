@@ -1,7 +1,7 @@
 export default [
   {
     title: "cybercrime",
-    imageUrl: "/themes/cybersec.jpeg",
+    imageUrl: "/themes/cyberCrime.jpg",
     detail:
       "Increasing use of technology gives birth to more Cybercrime. The counter to this problem? That's for you to find. Perform your duties as a responsible citizen and wisely use your resources to combat this problem.",
   },

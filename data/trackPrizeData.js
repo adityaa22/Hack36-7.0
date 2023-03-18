@@ -7,19 +7,13 @@ export default [
   },
   {
     companyName: "Polygon",
-    prize: "$150 for best hack built on Ethereum",
-    eligibility: "",
-    imageUrl: "/sponsor/Polygon.png",
-  },
-  {
-    companyName: "Polygon",
-    prize: "$200 for best hack buit on Ethereum+Polygon",
+    prize: "best hack built on Ethereum($150) and Ethereum+Polygon($200)",
     eligibility: "",
     imageUrl: "/sponsor/Polygon.png",
   },
   {
     companyName: "Filecoin",
-    prize: "$250 for bes use of Filecoin and/or IPFS",
+    prize: "$250 for best use of Filecoin and/or IPFS",
     eligibility: "",
     imageUrl: "/sponsor/Filecoin.png",
   },
@@ -31,13 +25,8 @@ export default [
   },
   {
     companyName: "Solana",
-    prize: "$100 for best begginers project on Solana",
-    eligibility: "",
-    imageUrl: "/sponsor/Solana.png",
-  },
-  {
-    companyName: "Solana",
-    prize: "$500 for best advanced project on Solana",
+    prize:
+      "best begginers project($100) and best advanced project($500) on Solana",
     eligibility: "",
     imageUrl: "/sponsor/Solana.png",
   },

@@ -30,6 +30,7 @@ export default function team() {
               data={data.designAndVideoTeam}
             />
             <TeamSection section="OutReach Team" data={data.outreachTeam} />
+            <TeamSection section="Tech Team" data={data.techTeam} />
             <TeamSection section="Content Team" data={data.contentTeam} />
             <TeamSection section="Sponsor Team" data={data.sponsorTeam} />
             <TeamSection section="PR and Logistic" data={data.prAndLogistics} />

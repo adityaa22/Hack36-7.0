@@ -119,9 +119,15 @@ export default {
   techTeam: [
     {
       name: "Abhishek Keshri",
-      imageUrl: "",
+      imageUrl: "/team/keshri.jpeg",
       instagramUrl: "https://instagram.com/abhikeshri10",
       linkedinUrl: "https://www.linkedin.com/in/abhikeshri10",
+    },
+    {
+      name: "Ishan Gupta",
+      imageUrl: "/team/ishan.jpeg",
+      instagramUrl: "https://instagram.com/w4rm4chin9",
+      linkedinUrl: "https://www.linkedin.com/in/guptaishan849/",
     },
   ],
   sponsorTeam: [
@@ -145,7 +151,7 @@ export default {
       linkedinUrl: "https://www.linkedin.com/in/deepeshrathi",
     },
     {
-      name: "Saurabh Kumar Kausal",
+      name: "Saurabh Kumar Kaushal",
       imageUrl: "/team/Saurabh.jpg",
       instagramUrl: "https://instagram.com/saurabh_kl",
       linkedinUrl: "https://www.linkedin.com/in/saurabhkumarkaushal",

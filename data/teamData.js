@@ -68,6 +68,12 @@ export default {
       linkedinUrl: "https://www.linkedin.com/in/abhinav1001anand/",
     },
     {
+      name: "Pushp Raj",
+      imageUrl: "/team/pushp.jpg",
+      instagramUrl: "https://www.instagram.com/pushp333/",
+      linkedinUrl: "https://www.linkedin.com/in/pushp-raj-254768130/",
+    },
+    {
       name: "Mohit Pandey",
       imageUrl: "/team/Momo.jpg",
       instagramUrl: "https://www.instagram.com/_mojo_ji_/",
@@ -97,9 +103,9 @@ export default {
     },
     {
       name: "Anant Shukla",
-      imageUrl: "",
-      instagramUrl: "",
-      linkedinUrl: "",
+      imageUrl: "/team/anant.jpg",
+      instagramUrl: "https://instagram.com/anantshukla.prproj",
+      linkedinUrl: "https://www.linkedin.com/in/anant1402",
     },
     {
       name: "Pranavi",
@@ -115,6 +121,18 @@ export default {
       instagramUrl: "https://instagram.com/adi.kingdom545?igshid=YmMyMTA2M2Y=",
       linkedinUrl: "https://www.linkedin.com/in/aditya-gupta-916304199",
     },
+    {
+      name: "Aditya chauhan",
+      imageUrl: "/team/aditya.jpeg",
+      instagramUrl: "https://www.instagram.com/boot_scare/",
+      linkedinUrl: "https://www.linkedin.com/in/aditya-chauhan-278b53199",
+    },
+    {
+      name: "Animesh Ranjan ",
+      imageUrl: "/team/animesh.jpg",
+      instagramUrl: "https://www.instagram.com/_animesh_0007_/",
+      linkedinUrl: "https://www.linkedin.com/in/animesh-ranjan-4a5a621a0/",
+    },
   ],
   techTeam: [
     {
@@ -128,6 +146,12 @@ export default {
       imageUrl: "/team/ishan.jpeg",
       instagramUrl: "https://instagram.com/w4rm4chin9",
       linkedinUrl: "https://www.linkedin.com/in/guptaishan849/",
+    },
+    {
+      name: "Abhijeet Pandey",
+      imageUrl: "/team/abhijeet.jpeg",
+      instagramUrl: "https://instagram.com/pandeyabhijeet",
+      linkedinUrl: "https://www.linkedin.com/in/abhijeetp94",
     },
   ],
   sponsorTeam: [

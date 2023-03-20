@@ -42,7 +42,7 @@ export default {
       url: "https://www.newtonschool.co/",
     },
   ],
-  streamPlatfrom:[
+  streamPlatfrom: [
     {
       imageLink: "/sponsor/slido.png",
       name: "Slido",
@@ -74,6 +74,16 @@ export default {
       imageLink: "/sponsor/verbwire.jpeg",
       name: "Verbwire",
       url: "https://www.verbwire.com/",
+    },
+    {
+      imageLink: "/sponsor/wolfram.png",
+      name: "Wolfram",
+      url: "https://wolfram.com/",
+    },
+    {
+      imageLink: "/sponsor/System76.svg",
+      name: "System76",
+      url: "https://system76.com/",
     },
   ],
   past_sponsor: [

@@ -56,7 +56,7 @@ export default [
   },
   {
     companyName: "Verbwire",
-    prize: "4K cash each to teams using Verbwire API.  ",
+    prize: "4K cash each to top 5 teams using Verbwire API.  ",
     eligibility: "top teams",
     imageUrl: "/sponsor/verbwire.jpeg",
   },

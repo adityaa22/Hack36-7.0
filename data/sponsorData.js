@@ -85,6 +85,11 @@ export default {
       name: "System76",
       url: "https://system76.com/",
     },
+    {
+      imageLink: "/sponsor/xyz.png",
+      name: "XYZ",
+      url: "https://gen.xyz/",
+    },
   ],
   past_sponsor: [
     {

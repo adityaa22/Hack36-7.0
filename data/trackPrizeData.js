@@ -50,14 +50,21 @@ export default [
   },
   {
     companyName: "cybrancee",
-    prize: "6 month free hosting to top teams",
+    prize: "6 month free hosting to top 3 teams",
     eligibility: "top teams",
     imageUrl: "/sponsor/cybranceeWhite.png",
   },
   {
     companyName: "Verbwire",
-    prize: "4K cash and credits worth Rs.110k for premium API each to top 5 teams using Verbwire API.  ",
+    prize:
+      "4K cash and credits worth Rs.110k for premium API each to top 5 teams using Verbwire API.  ",
     eligibility: "top teams",
     imageUrl: "/sponsor/verbwire.jpeg",
+  },
+  {
+    companyName: "Digital Ocean",
+    prize: "Digital Ocean credits",
+    eligibility: "All teams",
+    imageUrl: "/sponsor/digitalOcean.png",
   },
 ];

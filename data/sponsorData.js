@@ -90,6 +90,11 @@ export default {
       name: "XYZ",
       url: "https://gen.xyz/",
     },
+    {
+      imageLink: "/sponsor/cybranceeWhite.png",
+      name: "Cybrancee",
+      url: "https://cybrancee.com/",
+    },
   ],
   past_sponsor: [
     {

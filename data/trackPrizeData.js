@@ -32,7 +32,7 @@ export default [
   },
   {
     companyName: "Cuvette",
-    prize: "Tshirt and Scholarship to all member of winning teams",
+    prize: "Scholarship to all member of winning teams",
     eligibility: "top teams",
     imageUrl: "/sponsor/Cuvette.png",
   },
@@ -56,7 +56,7 @@ export default [
   },
   {
     companyName: "Verbwire",
-    prize: "4K cash each to top 5 teams using Verbwire API.  ",
+    prize: "4K cash and credits worth Rs.110k for premium API each to top 5 teams using Verbwire API.  ",
     eligibility: "top teams",
     imageUrl: "/sponsor/verbwire.jpeg",
   },

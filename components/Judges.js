@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Witch from "../public/witch.png";
+import Akhilesh_Singh from "../public/Judges/Akhilesh_Singh.jpeg"; 
+
 export default function Judges() {
   return (
     <section className="judges">
@@ -9,10 +11,10 @@ export default function Judges() {
         </h1>
 
         <div className="flex flex-wrap justify-around gap-3 py-20 ">
+          <Image src={Akhilesh_Singh} width={250} />
+          {/* <Image src={Witch} width={250} />
           <Image src={Witch} width={250} />
-          <Image src={Witch} width={250} />
-          <Image src={Witch} width={250} />
-          <Image src={Witch} width={250} />
+          <Image src={Witch} width={250} /> */}
         </div>
       </div>
     </section>

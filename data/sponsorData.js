@@ -95,6 +95,11 @@ export default {
       name: "Cybrancee",
       url: "https://cybrancee.com/",
     },
+    {
+      imageLink: "/sponsor/digitalOcean.png",
+      name: "Digital Ocean",
+      url: "https://www.digitalocean.com/",
+    },
   ],
   past_sponsor: [
     {

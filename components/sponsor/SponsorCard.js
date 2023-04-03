@@ -12,14 +12,11 @@ export const SponsorCard = ({ imageLink, name, url }) => {
           style={{
             boxShadow: "inset 0 0 0 3000px rgba(255, 255, 255, 0.5)",
             backdropFilter: "blur(2px)",
+            zIndex: "-1",
           }}
         ></div>
-        <div className="absolute inset-0 flex items-center justify-center">
-          <img
-            src={imageLink}
-            fill
-            className="object-contain w-4/5"
-          />
+        <div className="flex items-center justify-center w-full h-full">
+          <img src={imageLink} fill className="object-contain w-4/5 h-4/5" />
         </div>
       </div>
       {/* <Image src={Snitch} className="object-contain h-40" /> */}

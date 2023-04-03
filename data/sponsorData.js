@@ -53,6 +53,11 @@ export default {
       name: "Slido",
       url: "https://www.slido.com/",
     },
+    {
+      imageLink: "/sponsor/streamYard.png",
+      name: "Streamyard",
+      url: "https://streamyard.com/",
+    },
   ],
   benefactors: [
     {
@@ -94,6 +99,21 @@ export default {
       imageLink: "/sponsor/xyz.png",
       name: "XYZ",
       url: "https://gen.xyz/",
+    },
+    {
+      imageLink: "/sponsor/cybranceeWhite.png",
+      name: "Cybrancee",
+      url: "https://cybrancee.com/",
+    },
+    {
+      imageLink: "/sponsor/digitalOcean.png",
+      name: "Digital Ocean",
+      url: "https://www.digitalocean.com/",
+    },
+    {
+      imageLink: "/sponsor/metvy.svg",
+      name: "Metvy",
+      url: "https://www.metvy.com/",
     },
   ],
   past_sponsor: [

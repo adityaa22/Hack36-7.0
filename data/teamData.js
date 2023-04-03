@@ -156,10 +156,10 @@ export default {
   ],
   sponsorTeam: [
     {
-      name: "Anjali Dwivedi",
-      imageUrl: "/team/Anjali.jpg",
-      instagramUrl: "https://instagram.com/_anjalii1602/",
-      linkedinUrl: "https://www.linkedin.com/in/anjali-dwivedi-0370141b9",
+      name: "Saurabh Kumar Kaushal",
+      imageUrl: "/team/Saurabh.jpg",
+      instagramUrl: "https://instagram.com/saurabh_kl",
+      linkedinUrl: "https://www.linkedin.com/in/saurabhkumarkaushal",
     },
     {
       name: "Gungun Agarwal",
@@ -168,17 +168,18 @@ export default {
         "https://instagram.com/tooochubbyforyouu?igshid=ZDdkNTZiNTM=",
       linkedinUrl: "https://www.linkedin.com/in/gungun-agrawal",
     },
+
+    {
+      name: "Anjali Dwivedi",
+      imageUrl: "/team/Anjali.jpg",
+      instagramUrl: "https://instagram.com/_anjalii1602/",
+      linkedinUrl: "https://www.linkedin.com/in/anjali-dwivedi-0370141b9",
+    },
     {
       name: "Deepesh Rathi",
       imageUrl: "/team/Deepesh.jpg",
       instagramUrl: "https://www.instagram.com/mr_pirated",
       linkedinUrl: "https://www.linkedin.com/in/deepeshrathi",
-    },
-    {
-      name: "Saurabh Kumar Kaushal",
-      imageUrl: "/team/Saurabh.jpg",
-      instagramUrl: "https://instagram.com/saurabh_kl",
-      linkedinUrl: "https://www.linkedin.com/in/saurabhkumarkaushal",
     },
     {
       name: "Ishanchal Kashyap",

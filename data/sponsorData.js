@@ -19,6 +19,11 @@ export default {
       name: "Polygon",
       url: "https://polygon.technology/",
     },
+    {
+      imageLink: "/sponsor/guvi.png",
+      name: "Guvi",
+      url: "https://www.guvi.in/",
+    },
   ],
   mega: [
     {

@@ -21,4 +21,25 @@
     font-family: var(--font-body);
     color: var(--color-text);
     background-color: #faac69;
+    background-image: url("$lib/images/bg.jpg");
+}
+
+.hero-btn {
+    background-image: url("$lib/images/button-bg.jpg");
+}
+
+.home__main {
+    background-image: url('$lib/images/hero-phone.jpg');
+}
+
+@media (min-width: 768px) {
+    .home__main {
+        background-image: url('$lib/images/hero-tablet.jpg');
+    }
+}
+
+@media (min-width: 1024px) {
+    .home__main {
+        background-image: url('$lib/images/hero-main.jpg');
+    }
 }

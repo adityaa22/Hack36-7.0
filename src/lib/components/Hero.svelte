@@ -20,7 +20,7 @@
                 <div />
                 <div>
                     <div class="flex flex-col justify-center items-center h-full overflow-clip">
-                        <img src={heroScroll} class="flex-1 relative bg-cover" alt="" />
+                        <img src={heroScroll} class="flex-1 relative bg-cover w-[30rem]" alt="" />
                         <div class="absolute text-black">
                             <div class="flex flex-row items-center">
                                 <img src={ccLogo} class="h-20" alt="" />

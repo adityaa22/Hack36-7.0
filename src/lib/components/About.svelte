@@ -10,7 +10,9 @@
             <div
                 class="mx-auto max-w-7xl px-6 py-12 sm:py-12 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-24"
             >
-                <div class="mx-auto h-full max-w-2xl lg:mx-0 lg:flex-auto justify-center items-center">
+                <div
+                    class="mx-auto h-full max-w-2xl lg:mx-0 lg:flex-auto justify-center items-center"
+                >
                     <h1 class="mt-24 text-4xl font-bold tracking-tight sm:text-6xl">About Us</h1>
                     <p class="mt-6 text-2xl font-semibold">
                         Hack36 7.0 returns with excitement and anticipation, offering a hybrid
@@ -20,9 +22,7 @@
                         course, or college. Don't miss out on this unique opportunity.
                     </p>
                 </div>
-                <div class="lg:flex-shrink-0 lg:flex-grow bottom-24 absolute right-96">
-                    <img class="w-40" src={milo} alt="" />
-                </div>
+                <div class="lg:flex-shrink-0 lg:flex-grow bottom-24 absolute right-96"></div>
             </div>
         </div>
     </div>

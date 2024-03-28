@@ -16,32 +16,38 @@
         <div
             class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed home__img-div"
         >
-            <div class="grid grid-cols-1 lg:grid-cols-2 w-full h-full">
+            <div class="grid grid-cols-1 md:grid-cols-2 w-full h-full">
                 <div />
                 <div>
                     <div class="flex flex-col justify-center items-center h-full overflow-clip">
-                        <img src={heroScroll} class="flex-1 relative bg-cover w-[30rem]" alt="" />
+                        <img
+                            src={heroScroll}
+                            class="relative bg-cover h-[50rem] w-[30rem]"
+                            alt=""
+                        />
                         <div class="absolute text-black">
-                            <div class="flex flex-row items-center">
+                            <div class="flex flex-row items-center mx-8 md:mx-0">
                                 <img src={ccLogo} class="h-20" alt="" />
-                                <h1 class="text-2xl font-bold">MNNIT Computer Coding Club</h1>
+                                <p class="text-2xl font-bold">MNNIT Computer Coding Club</p>
                             </div>
 
                             <div class="flex flex-col">
-                                <h1 class="text-xl font-bold">presents</h1>
-                                <h1 class="text-7xl font-bold">Hack36 7.0</h1>
-                                <h1 class="text-xl font-bold">
-                                    Caffeinate. Collaborate. Celebrate.
-                                </h1>
+                                <p class="text-xl font-bold">presents</p>
+                                <p class="text-7xl font-bold">Hack36 7.0</p>
+                                <p class="text-xl font-bold">Caffeinate. Collaborate. Celebrate.</p>
 
-                                <a href="." class="hero-btn p-2 mt-6 mb-2 rounded-lg text-xl">
+                                <p class=" font-sans font-bold mt-4">April 19-21, 2024</p>
+                                <a
+                                    href="."
+                                    class="hero-btn p-2 mx-8 md:mx-0 mt-2 mb-2 rounded-lg text-xl"
+                                >
                                     Register Now
                                 </a>
 
                                 <a
                                     href="https://discord.gg/mfjB5hmnEf"
                                     target="_blank"
-                                    class="hero-btn p-2 rounded-lg text-xl flex gap-x-4 justify-center"
+                                    class="hero-btn p-2 mx-8 md:mx-0 rounded-lg text-xl flex gap-x-4 justify-center"
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"

@@ -1,5 +1,4 @@
 <script lang="ts">
-    import milo from "$lib/images/milo.png";
 </script>
 
 <div>

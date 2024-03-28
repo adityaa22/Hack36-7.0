@@ -33,7 +33,7 @@
 }
 
 .home__main {
-    background-image: url('$lib/images/hero-phone.jpg');
+    background-image: url('$lib/images/hero-phone.png');
 }
 
 .home__scroll {
@@ -42,7 +42,7 @@
 
 @media (min-width: 768px) {
     .home__main {
-        background-image: url('$lib/images/hero-tablet.jpg');
+        background-image: url('$lib/images/hero-tablet.png');
     }
 }
 

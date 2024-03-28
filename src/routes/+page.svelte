@@ -4,6 +4,10 @@
     import Prizes from "$lib/components/Prizes.svelte";
     import Theme from "$lib/components/Theme.svelte";
     import Sponsor from "$lib/components/Sponsor.svelte";
+    import Navbar from "$lib/components/Navbar.svelte";
+    import Judges from "$lib/components/Judges.svelte";
+    import Faq from "$lib/components/FAQ.svelte";
+    import Footer from "$lib/components/Footer.svelte";
 </script>
 
 <svelte:head>
@@ -16,9 +20,15 @@
 </svelte:head>
 
 <div>
+    <Navbar />
+
     <Hero />
     <About />
     <Theme />
     <Prizes />
     <Sponsor />
+    <Judges />
+    <Faq />
+
+    <Footer />
 </div>

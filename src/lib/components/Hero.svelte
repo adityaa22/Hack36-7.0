@@ -1,6 +1,6 @@
 <script lang="ts">
-    import heroScroll from "$lib/images/hero-scroll.png";
     import ccLogo from "$lib/images/cc-logo.png";
+    import heroScroll from "$lib/images/hero-scroll.png";
 
     import { browser } from "$app/environment";
     import { onMount } from "svelte";
@@ -41,18 +41,16 @@
                             class="relative bg-cover h-[50rem] w-[30rem]"
                             alt=""
                         />
-                        <div class="absolute text-black">
-                            <div class="flex flex-row items-center mx-8 md:mx-0">
-                                <img src={ccLogo} class="h-20" alt="" />
-                                <p class="text-2xl font-bold">MNNIT Computer Coding Club</p>
-                            </div>
+                        <div class="absolute text-black flex flex-col items-center">
+                            <img src={ccLogo} class="h-20" alt="" />
+                            <p class="text-2xl font-bold">MNNIT Computer Coding Club</p>
 
                             <div class="flex flex-col">
                                 <p class="text-xl font-bold">presents</p>
                                 <p class="text-7xl font-bold">Hack36 7.0</p>
                                 <p class="text-xl font-bold">Caffeinate. Collaborate. Celebrate.</p>
 
-                                <p class=" font-sans font-bold mt-4">April 19-21, 2024</p>
+                                <p class="text-2xl mt-4">April 19-21, 2024</p>
                                 <div class="w-full mb-2 flex items-center justify-center mt-2">
                                     <div
                                         class="apply-button"
@@ -63,7 +61,7 @@
                                 </div>
 
                                 <a
-                                    href="https://discord.gg/mfjB5hmnEf"
+                                    href="https://discord.gg/4bsWrGrcyJ"
                                     target="_blank"
                                     class="hero-btn p-2 mx-8 md:mx-0 rounded-lg text-xl flex gap-x-4 justify-center"
                                 >

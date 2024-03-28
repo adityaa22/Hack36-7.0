@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -22,6 +24,12 @@
     color: var(--color-text);
     background-color: #faac69;
     background-image: url("$lib/images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.font-inter {
+    font-family: 'Inter', sans-serif;
 }
 
 .hero-btn {
@@ -30,6 +38,18 @@
 
 .sponsor__card {
     background-image: url('$lib/images/sponsor-scroll.png');
+}
+
+.clouds {
+    background-image: url('$lib/images/clouds.png');
+}
+
+.cave-up {
+    background-image: url('$lib/images/cave-up.png');
+}
+
+.cave-down {
+    background-image: url('$lib/images/cave-down.png');
 }
 
 .about__main {

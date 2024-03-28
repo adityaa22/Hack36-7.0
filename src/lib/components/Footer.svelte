@@ -37,9 +37,15 @@
             <div class="mb-6 md:mb-0">
                 <a href="." class="flex items-center">
                     <img src={hack36} class="h-8 me-3" alt="Hack36 7.0" />
-                    <span class="self-center text-4xl font-semibold whitespace-nowrap">
-                        Hack36 7.0
-                    </span>
+                    <span class="self-center text-4xl whitespace-nowrap"> Hack36 7.0 </span>
+                </a>
+                <a
+                    href="mailto:hackathon@mnnit.ac.in"
+                    rel="noreferrer"
+                    target="_blank"
+                    class="flex items-center mt-4 rounded hover:underline"
+                >
+                    <span class="self-center font-inter whitespace-nowrap"> Contact Us </span>
                 </a>
             </div>
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 font-inter">

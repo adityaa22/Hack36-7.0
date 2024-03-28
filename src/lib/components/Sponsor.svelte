@@ -1,9 +1,10 @@
 <script lang="ts">
-    import caveUp from "$lib/images/cave-up.png";
     import * as Carousel from "$lib/components/ui/carousel";
+    import caveUp from "$lib/images/cave-up.png";
     import devfolio from "$lib/images/devfolio.png";
-    import polygon from "$lib/images/polygon.png";
     import ethIndia from "$lib/images/eth-india.png";
+    import polygon from "$lib/images/polygon.png";
+    import AutoPlay from "embla-carousel-autoplay";
 
     let sponsors = [
         {
@@ -33,12 +34,21 @@
             />
             <h1 class="mt-44 text-4xl font-bold tracking-tight sm:text-6xl">Sponsors</h1>
             <div class="mt-16 items-center justify-center flex w-full">
-                <Carousel.Root class="w-full max-w-[80vw]">
+                <Carousel.Root
+                    class="w-full max-w-[80vw]"
+                    plugins={[
+                        AutoPlay({
+                            delay: 2000,
+                        }),
+                    ]}
+                >
                     <Carousel.Content>
                         {#each sponsors as sponsor, i (i)}
-                            <Carousel.Item class="md:basis-1/2 lg:basis-1/3 xl:basis-1/4">
+                            <Carousel.Item
+                                class="md:basis-1/2 lg:basis-1/3 flex items-center justify-center"
+                            >
                                 <div
-                                    class="h-[20rem] sponsor__card relative overflow-hidden bg-no-repeat bg-cover flex items-center justify-center"
+                                    class="h-[20rem] w-[20rem] sponsor__card relative overflow-hidden bg-no-repeat bg-cover flex items-center justify-center"
                                 >
                                     <img src={sponsor.logo} alt={sponsor.alt} class="w-[10rem]" />
                                 </div>

@@ -53,12 +53,14 @@
                                 <p class="text-xl font-bold">Caffeinate. Collaborate. Celebrate.</p>
 
                                 <p class=" font-sans font-bold mt-4">April 19-21, 2024</p>
-                                <div
-                                    class="apply-button w-full mb-2"
-                                    data-hackathon-slug="hack36-2024"
-                                    data-button-theme="light"
-                                    style="height: 44px;"
-                                ></div>
+                                <div class="w-full mb-2 flex items-center justify-center mt-2">
+                                    <div
+                                        class="apply-button"
+                                        data-hackathon-slug="hack36-2024"
+                                        data-button-theme="light"
+                                        style="height: 44px;"
+                                    />
+                                </div>
 
                                 <a
                                     href="https://discord.gg/mfjB5hmnEf"

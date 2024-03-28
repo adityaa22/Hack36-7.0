@@ -9,7 +9,7 @@
         <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed">
             <img
                 src={clouds}
-                class="h-[21rem] w-[96rem] z-20 overflow-clip absolute bg-no-repeat bg-cover bg-fixed bottom-[-11rem]"
+                class="h-[21rem] w-full z-20 overflow-clip absolute bg-no-repeat bg-cover bg-fixed bottom-[-11rem]"
                 alt=""
             />
             <div

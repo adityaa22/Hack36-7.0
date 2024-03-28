@@ -1,10 +1,10 @@
 <script lang="ts">
-    import caveDown from "$lib/images/cave-down.png";
-    import caveUp from "$lib/images/cave-up.png";
-    import chestFirst from "$lib/images/chest-1st.png";
-    import chestSecond from "$lib/images/chest-2nd.png";
-    import chestThird from "$lib/images/chest-3rd.png";
-    import chest from "$lib/images/chest.png";
+    import caveDown from "$lib/images/cave-down.webp";
+    import caveUp from "$lib/images/cave-up.webp";
+    import chestFirst from "$lib/images/chest-1st.webp";
+    import chestSecond from "$lib/images/chest-2nd.webp";
+    import chestThird from "$lib/images/chest-3rd.webp";
+    import chest from "$lib/images/chest.webp";
 
     let prizes = [
         {
@@ -70,7 +70,7 @@
                 <p class="text-white text-7xl">Prizes</p>
             </div>
             <div
-                class="hidden lg:grid lg:grid-cols-3 mt-12 mb-12 w-full h-full overflow-scroll text-white text-5xl"
+                class="hidden lg:grid lg:grid-cols-3 mt-12 mb-12 w-full h-full overflow-hidden text-white text-5xl"
             >
                 {#each prizes as prize, i}
                     <div class="flex flex-col items-center z-20">

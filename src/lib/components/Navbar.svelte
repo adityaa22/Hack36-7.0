@@ -1,5 +1,5 @@
 <script lang="ts">
-    import hack36 from "$lib/images/hack36.png";
+    import hack36 from "$lib/images/hack36.webp";
 
     let showMobileNav = false;
 

@@ -23,9 +23,10 @@
     font-family: var(--font-body);
     color: var(--color-text);
     background-color: #faac69;
-    background-image: url("$lib/images/bg.jpg");
+    background-image: url("$lib/images/bg.webp");
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .font-inter {
@@ -33,50 +34,50 @@
 }
 
 .hero-btn {
-    background-image: url("$lib/images/button-bg.jpg");
+    background-image: url("$lib/images/button-bg.webp");
 }
 
 .sponsor__card {
-    background-image: url('$lib/images/sponsor-scroll.png');
+    background-image: url('$lib/images/sponsor-scroll.webp');
 }
 
 .clouds {
-    background-image: url('$lib/images/clouds.png');
+    background-image: url('$lib/images/clouds.webp');
 }
 
 .cave-up {
-    background-image: url('$lib/images/cave-up.png');
+    background-image: url('$lib/images/cave-up.webp');
 }
 
 .cave-down {
-    background-image: url('$lib/images/cave-down.png');
+    background-image: url('$lib/images/cave-down.webp');
 }
 
 .about__main {
-    background-image: url('$lib/images/about.png');
+    background-image: url('$lib/images/about.webp');
 }
 
 .prizes__main {
-    background-image: url('$lib/images/prizes-bg.jpg');
+    background-image: url('$lib/images/prizes-bg.webp');
 }
 
 .home__main {
-    background-image: url('$lib/images/hero-phone.png');
+    background-image: url('$lib/images/hero-phone.webp');
 }
 
 .home__scroll {
-    background-image: url('$lib/images/hero-scroll.png');
+    background-image: url('$lib/images/hero-scroll.webp');
 }
 
 @media (min-width: 768px) {
     .home__main {
-        background-image: url('$lib/images/hero-tablet.png');
+        background-image: url('$lib/images/hero-tablet.webp');
     }
 }
 
 @media (min-width: 1024px) {
     .home__main {
-        background-image: url('$lib/images/hero-main.jpg');
+        background-image: url('$lib/images/hero-main.webp');
     }
 }
 

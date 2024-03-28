@@ -1,23 +1,5 @@
 <script lang="ts">
-    import devfolio from "$lib/images/devfolio.png";
-    import ethIndia from "$lib/images/eth-india.png";
-    import polygon from "$lib/images/polygon.png";
-    import themeBg from "$lib/images/theme-bg.png";
-
-    let sponsors = [
-        {
-            alt: "DEVFOLIO LOGO",
-            logo: devfolio,
-        },
-        {
-            alt: "POLYGON LOGO",
-            logo: polygon,
-        },
-        {
-            alt: "ETHINDIA LOGO",
-            logo: ethIndia,
-        },
-    ];
+    import themeBg from "$lib/images/theme-bg.webp";
 </script>
 
 <div id="judges" class="flex flex-col items-center justify-center text-black bg-orange-300 pb-24">

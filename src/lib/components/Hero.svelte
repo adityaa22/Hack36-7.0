@@ -1,6 +1,6 @@
 <script lang="ts">
-    import ccLogo from "$lib/images/cc-logo.png";
-    import heroScroll from "$lib/images/hero-scroll.png";
+    import ccLogo from "$lib/images/cc-logo.webp";
+    import heroScroll from "$lib/images/hero-scroll.webp";
 
     import { browser } from "$app/environment";
     import { onMount } from "svelte";

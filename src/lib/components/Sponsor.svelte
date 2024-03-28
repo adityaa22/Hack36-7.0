@@ -1,9 +1,9 @@
 <script lang="ts">
     import * as Carousel from "$lib/components/ui/carousel";
-    import caveUp from "$lib/images/cave-up.png";
-    import devfolio from "$lib/images/devfolio.png";
-    import ethIndia from "$lib/images/eth-india.png";
-    import polygon from "$lib/images/polygon.png";
+    import caveUp from "$lib/images/cave-up.webp";
+    import devfolio from "$lib/images/devfolio.webp";
+    import ethIndia from "$lib/images/eth-india.webp";
+    import polygon from "$lib/images/polygon.webp";
     import AutoPlay from "embla-carousel-autoplay";
 
     let sponsors = [

@@ -1,23 +1,16 @@
 <script lang="ts">
-    import clouds from "$lib/images/clouds.png";
+    import milo from "$lib/images/milo.png";
 </script>
 
 <div>
     <div
-        class="text-center h-screen text-black align-middle relative overflow-hidden bg-no-repeat bg-cover about__main"
+        class="text-center h-[80vh] text-black align-middle relative overflow-hidden bg-no-repeat bg-cover"
     >
         <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed">
-            <img
-                src={clouds}
-                class="h-[21rem] w-full z-20 overflow-clip absolute bg-no-repeat bg-cover bg-fixed bottom-[-11rem]"
-                alt=""
-            />
             <div
                 class="mx-auto max-w-7xl px-6 py-12 sm:py-12 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-24"
             >
-                <div
-                    class="mx-auto h-full max-w-2xl lg:mx-0 lg:flex-auto justify-center items-center"
-                >
+                <div class="mx-auto h-full max-w-2xl lg:mx-0 lg:flex-auto text-start">
                     <h1 class="mt-24 text-4xl font-bold tracking-tight sm:text-6xl">About Us</h1>
                     <p class="mt-6 text-2xl font-semibold">
                         Hack36 7.0 returns with excitement and anticipation, offering a hybrid
@@ -27,7 +20,9 @@
                         course, or college. Don't miss out on this unique opportunity.
                     </p>
                 </div>
-                <div class="lg:flex-shrink-0 lg:flex-grow bottom-24 absolute right-96"></div>
+                <div class="flex flex-col">
+                    <img src={milo} class="rounded-lg h-[50%] w-[50%]" alt="" />
+                </div>
             </div>
         </div>
     </div>

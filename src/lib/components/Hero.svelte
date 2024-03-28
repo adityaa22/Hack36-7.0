@@ -1,6 +1,22 @@
 <script lang="ts">
     import heroScroll from "$lib/images/hero-scroll.png";
     import ccLogo from "$lib/images/cc-logo.png";
+
+    import { browser } from "$app/environment";
+    import { onMount } from "svelte";
+
+    onMount(() => {
+        if (browser) {
+            const script = document.createElement("script");
+            script.src = "https://apply.devfolio.co/v2/sdk.js";
+            script.async = true;
+            script.defer = true;
+            document.body.appendChild(script);
+            return () => {
+                document.body.removeChild(script);
+            };
+        }
+    });
 </script>
 
 <div class="">
@@ -37,12 +53,12 @@
                                 <p class="text-xl font-bold">Caffeinate. Collaborate. Celebrate.</p>
 
                                 <p class=" font-sans font-bold mt-4">April 19-21, 2024</p>
-                                <a
-                                    href="."
-                                    class="hero-btn p-2 mx-8 md:mx-0 mt-2 mb-2 rounded-lg text-xl"
-                                >
-                                    Register Now
-                                </a>
+                                <div
+                                    class="apply-button w-full mb-2"
+                                    data-hackathon-slug="hack36-2024"
+                                    data-button-theme="light"
+                                    style="height: 44px;"
+                                ></div>
 
                                 <a
                                     href="https://discord.gg/mfjB5hmnEf"

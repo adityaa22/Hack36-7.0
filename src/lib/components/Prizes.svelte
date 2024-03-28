@@ -2,6 +2,7 @@
     import heroScroll from "$lib/images/hero-scroll.png";
     import ccLogo from "$lib/images/cc-logo.png";
     import clouds from "$lib/images/clouds.png";
+    import caveDown from "$lib/images/cave-down.png";
     import chest from "$lib/images/chest.png";
     import chestFirst from "$lib/images/chest-1st.png";
     import chestSecond from "$lib/images/chest-2nd.png";
@@ -54,22 +55,27 @@
 
 <div class="">
     <div
-        class="text-center h-[120vh] text-black align-middle relative overflow-hidden bg-no-repeat bg-cover prizes__main"
+        class="text-center h-[128vh] text-black align-middle relative overflow-hidden bg-no-repeat bg-cover prizes__main"
     >
         <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed">
             <img
                 src={clouds}
-                class="h-[21rem] w-full z-20 overflow-clip absolute bg-no-repeat bg-cover bg-fixed top-[-10rem]"
+                class="h-[21rem] w-full z-10 overflow-clip absolute bg-no-repeat bg-cover bg-fixed top-[-10rem]"
+                alt=""
+            />
+            <img
+                src={caveDown}
+                class="h-[18rem] w-full z-10 overflow-clip absolute bg-no-repeat bg-cover bg-fixed bottom-0"
                 alt=""
             />
             <div class="w-full mt-[12rem]">
                 <p class="text-white text-7xl">Prizes</p>
             </div>
             <div
-                class="grid grid-cols-1 md:grid-cols-3 mt-24 w-full h-full overflow-scroll text-white text-5xl"
+                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-24 w-full h-full overflow-scroll text-white text-5xl"
             >
                 {#each prizes as prize, i}
-                    <div class="flex flex-col items-center">
+                    <div class="flex flex-col items-center z-20">
                         <div
                             class={`bg-yellow-700 w-[24rem] rounded-lg ${prize.image !== chest ? "opacity-100" : "opacity-0"}`}
                         >

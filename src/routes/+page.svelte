@@ -2,7 +2,8 @@
     import Hero from "$lib/components/Hero.svelte";
     import About from "$lib/components/About.svelte";
     import Prizes from "$lib/components/Prizes.svelte";
-    import clouds from "$lib/images/clouds.png";
+    import Theme from "$lib/components/Theme.svelte";
+    import Sponsor from "$lib/components/Sponsor.svelte";
 </script>
 
 <svelte:head>
@@ -17,5 +18,7 @@
 <div>
     <Hero />
     <About />
+    <Theme />
     <Prizes />
+    <Sponsor />
 </div>

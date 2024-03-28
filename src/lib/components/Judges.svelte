@@ -4,6 +4,7 @@
 
 <div id="judges" class="flex flex-col items-center justify-center text-black bg-orange-300 pb-24">
     <h1 class="text-6xl">Judges</h1>
+    <h1 class="mb-12 text-4xl">Announcing soon ...</h1>
     <div class="mt-16 items-center justify-center flex flex-col w-full">
         <div
             class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center blur-md gap-x-12"
@@ -18,6 +19,5 @@
                 <img src={themeBg} alt="" />
             </div>
         </div>
-        <h1 class="mb-12 tracking-tight text-6xl">Announcing soon ...</h1>
     </div>
 </div>

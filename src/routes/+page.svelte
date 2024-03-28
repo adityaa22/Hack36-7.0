@@ -1,6 +1,4 @@
 <script>
-    import headerImage from "$lib/images/header.jpg";
-    import aboutImage from "$lib/images/about.jpg";
     import Hero from "$lib/components/Hero.svelte";
     import About from "$lib/components/About.svelte";
 </script>

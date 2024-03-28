@@ -1,4 +1,5 @@
 <script lang="ts">
+    import clouds from "$lib/images/clouds.png";
 </script>
 
 <div>
@@ -6,6 +7,11 @@
         class="text-center h-screen text-black align-middle relative overflow-hidden bg-no-repeat bg-cover about__main"
     >
         <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed">
+            <img
+                src={clouds}
+                class="h-[21rem] w-[96rem] z-20 overflow-clip absolute bg-no-repeat bg-cover bg-fixed bottom-[-11rem]"
+                alt=""
+            />
             <div
                 class="mx-auto max-w-7xl px-6 py-12 sm:py-12 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-24"
             >

@@ -32,6 +32,10 @@
     background-image: url('$lib/images/about.png');
 }
 
+.prizes__main {
+    background-image: url('$lib/images/prizes-bg.jpg');
+}
+
 .home__main {
     background-image: url('$lib/images/hero-phone.png');
 }

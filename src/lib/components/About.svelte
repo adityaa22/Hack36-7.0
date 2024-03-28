@@ -1,44 +1,29 @@
 <script lang="ts">
-    import aboutImage from "$lib/images/about.jpg";
+    import milo from "$lib/images/milo.png";
 </script>
 
 <div>
-    <img src={aboutImage} class="h-full w-full" alt="" />
-
     <div
-        class="text-white
-            text-center
-            md:text-2xl
-            lg:text-3xl
-            xl:text-4xl
-            2xl:text-5xl
-            p-4
-            md:p-8
-            lg:p-12
-            xl:p-16
-            2xl:p-20"
+        class="text-center h-screen text-black align-middle relative overflow-hidden bg-no-repeat bg-cover about__main"
     >
-        <h1 class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold">
-            About Us
-        </h1>
-        <p class="text-sm md text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
-            Hack36 is the annual hackathon of Motilal Nehru National Institute of Technology,
-            Allahabad. It is a 36-hour hackathon where students from all over the country come
-            together to build something new and innovative. It is a platform for students to
-            showcase their technical skills and creativity. The event is organized by the Computer
-            Science and Engineering Society of MNNIT. The event is open to all students from any
-            college or university.
-        </p>
-
-        <h1 class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold">
-            Our Vision
-        </h1>
-        <p class="text-sm md text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
-            Our vision is to provide a platform for students to showcase their technical skills and
-            creativity. We want to encourage students to think out of the box and come up with
-            innovative solutions to real-world problems. We believe that hackathons are a great way
-            to learn new technologies and collaborate with like-minded individuals. We want to
-            create an environment where students can learn, grow, and have fun.
-        </p>
+        <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed">
+            <div
+                class="mx-auto max-w-7xl px-6 py-12 sm:py-12 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-24"
+            >
+                <div class="mx-auto max-w-2xl lg:mx-0 lg:flex-auto justify-center items-center">
+                    <h1 class="mt-24 text-4xl font-bold tracking-tight sm:text-6xl">About Us</h1>
+                    <p class="mt-6 text-2xl font-semibold">
+                        Hack36 7.0 returns with excitement and anticipation, offering a hybrid
+                        hackathon experience. Teams of 2-4 college students can brainstorm ideas and
+                        showcase their programming skills. The 36-hour exhibition features talks,
+                        interactive workshops, and mini-games. No restrictions on branch, year,
+                        course, or college. Don't miss out on this unique opportunity.
+                    </p>
+                </div>
+                <div class="lg:flex-shrink-0 lg:flex-grow bottom-24 absolute right-96">
+                    <img class="w-40" src={milo} alt="" />
+                </div>
+            </div>
+        </div>
     </div>
 </div>

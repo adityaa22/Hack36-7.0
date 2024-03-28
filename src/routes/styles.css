@@ -28,6 +28,10 @@
     background-image: url("$lib/images/button-bg.jpg");
 }
 
+.about__main {
+    background-image: url('$lib/images/about.jpg');
+}
+
 .home__main {
     background-image: url('$lib/images/hero-phone.jpg');
 }

@@ -25,7 +25,7 @@
             image: chest,
             card: [
                 "#1 Gold",
-                "Holder of Trident of Poseidon",
+                "Sovereign of the Trident of Poseidon",
                 "Prizes Worth Rs.100k+ Cash Prize Worth Rs. 30000 +Tons of swags and giveaways",
             ],
         },
@@ -36,7 +36,7 @@
             image: chest,
             card: [
                 "#2 Silver",
-                "Holder of Dead Man's Chest",
+                "Keeper of the Dead Man's Chest",
                 "Prizes Worth Rs.80k+ Cash Prize Rs. 20000 +Tons of swags and giveaways",
             ],
         },

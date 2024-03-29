@@ -26,6 +26,7 @@
     background-image: url("$lib/images/bg.webp");
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .font-inter {

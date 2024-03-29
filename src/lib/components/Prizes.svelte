@@ -25,7 +25,7 @@
             image: chest,
             card: [
                 "#1 Gold",
-                "Trident of Poseidon",
+                "Holder of Trident of Poseidon",
                 "Prizes Worth Rs.100k+ Cash Prize Worth Rs. 30000 +Tons of swags and giveaways",
             ],
         },
@@ -36,7 +36,7 @@
             image: chest,
             card: [
                 "#2 Silver",
-                "Dead Man's Chest",
+                "Holder of Dead Man's Chest",
                 "Prizes Worth Rs.80k+ Cash Prize Rs. 20000 +Tons of swags and giveaways",
             ],
         },
@@ -68,6 +68,7 @@
             />
             <div class="w-full mt-[12rem]">
                 <p class="text-white text-7xl">Prizes</p>
+                <p class="text-white text-4xl">Track prizes to be added soon...</p>
             </div>
             <div
                 class="hidden lg:grid lg:grid-cols-3 mt-12 mb-12 w-full h-full overflow-hidden text-white text-5xl"

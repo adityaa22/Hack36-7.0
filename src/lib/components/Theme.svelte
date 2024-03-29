@@ -7,7 +7,7 @@
     <div class="text-center h-full text-black align-middle overflow-hidden bg-no-repeat bg-cover">
         <div class="relative top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed">
             <div
-                class="h-[21rem] w-full z-10 overflow-clip absolute bg-no-repeat bg-cover top-[-11rem] clouds"
+                class="h-[21rem] w-full z-10 overflow-clip absolute bg-no-repeat bg-cover top-[-11rem] clouds bg-center"
             />
             <h1 class="mb-12 mt-32 md:mt-44 z-20 text-6xl">Themes</h1>
             <h1 class="mb-12 text-4xl">Announcing soon ...</h1>

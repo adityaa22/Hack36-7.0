@@ -53,7 +53,7 @@
 
 <div id="prizes">
     <div
-        class="text-center h-full text-black align-middle overflow-hidden bg-no-repeat bg-cover prizes__main"
+        class="text-center h-full text-black align-middle overflow-hidden bg-no-repeat bg-cover prizes__main bg-center"
     >
         <div class="relative top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed">
             <img
@@ -77,8 +77,12 @@
                         <div
                             class={`bg-yellow-700 w-[24rem] rounded-xl ${prize.image !== chest ? "opacity-100" : "opacity-0"}`}
                         >
-                            {#each prize.card as card}
-                                <p class="text-2xl">{card}</p>
+                            {#each prize.card as card, i}
+                                <p
+                                    class={`${i === 0 ? "text-6xl" : i === 1 ? "text-4xl" : "text-2xl"}`}
+                                >
+                                    {card}
+                                </p>
                             {/each}
                         </div>
                         <img

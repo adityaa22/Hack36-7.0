@@ -14,7 +14,7 @@
             image: chest,
             card: [
                 "#3 Bronze",
-                "BEARER OF CLOAK OF INVISIBILITY",
+                "Holder of Tia Dalma's Compass",
                 "Prizes Worth Rs.50k+ Cash Prize Worth Rs. 10000 Tons of swags and giveaways",
             ],
         },
@@ -25,7 +25,7 @@
             image: chest,
             card: [
                 "#1 Gold",
-                "POSESSER OF ELDER WAND",
+                "Trident of Poseidon",
                 "Prizes Worth Rs.100k+ Cash Prize Worth Rs. 30000 +Tons of swags and giveaways",
             ],
         },
@@ -36,7 +36,7 @@
             image: chest,
             card: [
                 "#2 Silver",
-                "OWNER OF RESURRECTION STONE",
+                "Dead Man's Chest",
                 "Prizes Worth Rs.80k+ Cash Prize Rs. 20000 +Tons of swags and giveaways",
             ],
         },

@@ -7,6 +7,9 @@
     >
         <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed">
             <div
+                class="h-[21rem] w-full z-10 overflow-clip absolute bg-no-repeat bg-cover bottom-[-10rem] clouds"
+            />
+            <div
                 class="mx-auto max-w-7xl px-6 py-12 sm:py-12 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-24"
             >
                 <div class="h-full pt-12 lg:pt-0 mx-0 max-w-2xl lg:flex-auto text-center">

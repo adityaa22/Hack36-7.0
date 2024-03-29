@@ -66,7 +66,7 @@
                 class="h-[18rem] w-full z-10 overflow-clip absolute bg-no-repeat bg-cover bottom-0"
                 alt=""
             />
-            <div class="w-full mt-[12rem]">
+            <div class="w-full mt-[12rem]" data-aos="fade-up">
                 <p class="text-white text-7xl">Prizes</p>
                 <p class="text-white text-4xl">Track prizes to be added soon...</p>
             </div>
@@ -74,7 +74,7 @@
                 class="hidden lg:grid lg:grid-cols-3 mt-12 mb-12 w-full h-full overflow-hidden text-white text-5xl"
             >
                 {#each prizes as prize, i}
-                    <div class="flex flex-col items-center z-20">
+                    <div class="flex flex-col items-center z-20" data-aos="fade-up">
                         <div
                             class={`bg-yellow-700 w-[24rem] rounded-xl ${prize.image !== chest ? "opacity-100" : "opacity-0"}`}
                         >

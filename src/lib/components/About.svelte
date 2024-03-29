@@ -12,7 +12,10 @@
             <div
                 class="mx-auto max-w-7xl px-6 py-12 sm:py-12 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-24"
             >
-                <div class="h-full pt-12 lg:pt-0 mx-0 max-w-2xl lg:flex-auto text-center">
+                <div
+                    class="h-full pt-12 lg:pt-0 mx-0 max-w-2xl lg:flex-auto text-center"
+                    data-aos="fade-up"
+                >
                     <h1 class="mt-6 md:mt-24 text-6xl">About Us</h1>
                     <p class="text-2xl">
                         Hack36 7.0 returns with excitement and anticipation, offering a hybrid

@@ -19,7 +19,7 @@
     });
 </script>
 
-<div class="">
+<div class="" data-aos="fade-in">
     <!-- <div class="">
         <img src={heroPhoneImage} class="h-full block md:hidden w-full" alt="" />
         <img src={heroTabletImage} class="h-full hidden md:block lg:hidden w-full" alt="" />

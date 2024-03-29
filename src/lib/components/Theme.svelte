@@ -9,29 +9,31 @@
             <div
                 class="h-[21rem] w-full z-10 overflow-clip absolute bg-no-repeat bg-cover top-[-11rem] clouds bg-center"
             />
-            <h1 class="mb-12 mt-32 md:mt-44 z-20 text-6xl">Themes</h1>
-            <h1 class="mb-12 text-4xl">Announcing soon ...</h1>
-            <div
-                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center blur-md"
-            >
-                <div class="flex items-center justify-center">
-                    <img src={themeBg} alt="" />
-                </div>
-                <div class="flex items-center justify-center">
-                    <img src={themeBg} alt="" />
-                </div>
-                <div class="flex items-center justify-center">
-                    <img src={themeBg} alt="" />
-                </div>
+            <div data-aos="fade-up">
+                <h1 class="mb-12 mt-32 md:mt-44 z-20 text-6xl">Themes</h1>
+                <h1 class="mb-12 text-4xl">Announcing soon ...</h1>
+                <div
+                    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center blur-md"
+                >
+                    <div class="flex items-center justify-center">
+                        <img src={themeBg} alt="" />
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <img src={themeBg} alt="" />
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <img src={themeBg} alt="" />
+                    </div>
 
-                <div class="flex items-center justify-center">
-                    <img src={themeBg} alt="" />
-                </div>
-                <div class="flex items-center justify-center">
-                    <img src={themeBg} alt="" />
-                </div>
-                <div class="flex items-center justify-center">
-                    <img src={themeBg} alt="" />
+                    <div class="flex items-center justify-center">
+                        <img src={themeBg} alt="" />
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <img src={themeBg} alt="" />
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <img src={themeBg} alt="" />
+                    </div>
                 </div>
             </div>
             <img

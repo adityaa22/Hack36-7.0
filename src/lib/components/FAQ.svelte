@@ -38,9 +38,9 @@
 </script>
 
 <div id="faq" class="flex flex-col items-center justify-center text-black bg-orange-300 pb-24">
-    <h1 class="text-6xl">FAQs</h1>
+    <h1 class="text-6xl" data-aos="fade-up">FAQs</h1>
     <div class="mt-16 items-center justify-center flex flex-col w-full">
-        <div class="flex flex-col w-full max-w-xl font-inter">
+        <div class="flex flex-col w-full max-w-xl font-inter" data-aos="fade-up">
             {#each faq as { question, answer }}
                 <Accordion.Root class="mx-6">
                     <Accordion.Item value={question}>

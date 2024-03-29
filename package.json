@@ -15,6 +15,7 @@
         "@sveltejs/adapter-static": "^3.0.1",
         "@sveltejs/kit": "^2.0.0",
         "@sveltejs/vite-plugin-svelte": "^3.0.0",
+        "@types/aos": "^3.0.7",
         "autoprefixer": "^10.4.19",
         "postcss": "^8.4.38",
         "svelte": "^4.2.7",
@@ -27,6 +28,7 @@
     "type": "module",
     "dependencies": {
         "@sveltejs/adapter-vercel": "^5.2.0",
+        "aos": "^2.3.4",
         "bits-ui": "^0.21.1",
         "clsx": "^2.1.0",
         "embla-carousel-autoplay": "^8.0.0",
